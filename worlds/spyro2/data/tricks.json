@@ -1,0 +1,38 @@
+{
+  "Glimmer - Double Jump to OoB Ledge": {
+    "level": "GLIMMER",
+    "description": "Double jump from the starting area in Glimmer to the OoB ledge. Note that getting to the indoor superflight archway ledge or the outdoor gem lamps area requires Glide.",
+    "estimated_difficulty": 0,
+    "is_glitch": true,
+    "type": "CONNECTS_SUBREGIONS",
+    "connects": {
+      "from": "MAIN_BUILDING",
+      "to": "OOB_LEDGE"
+    },
+    "requires": [["DOUBLE_JUMP"]]
+  },
+  "Glimmer - Outdoor Gem Lamps with Flamecharge Jumps": {
+    "level": "GLIMMER",
+    "description": "Light the outdoor gem lamps without superflight using flamecharge jumps.",
+    "estimated_difficulty": 0,
+    "is_glitch": true,
+    "type": "ACCESS",
+    "accesses": {
+      "type": "ORB",
+      "orb": "GEM_LAMP_FLIGHT_OUTDOORS"
+    },
+    "requires": [["FLAME", "CHARGE"]]
+  },
+  "Glimmer - Gem Lamp Flight In Cave Orb Cutscene Teleport": {
+    "level": "GLIMMER",
+    "description": "Utilize the 'orb get' cutscene for 'Gem Lamp Flight in cave' to obtain gems on the flight archway's ledge without normal access to it.",
+    "estimated_difficulty": 0,
+    "is_glitch": false,
+    "type": "CONNECTS_SUBREGIONS",
+    "connects": {
+      "from": "_INDOOR_GEM_LAMPS_ORB_CUTSCENE",
+      "to": "INDOOR_GEM_LAMPS_FLIGHT_ARCHWAY_LEDGE"
+    },
+    "requires": [[]]
+  }
+}

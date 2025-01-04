@@ -1,0 +1,190 @@
+{
+  "GLIMMER": {
+    "name": "Glimmer",
+    "id": 1,
+    "sector_id": 1,
+    "is_hubworld": false,
+    "subregions": {
+      "START": {
+        "connects_to": {
+          "MAIN_BUILDING": [[]]
+        },
+        "contains": []
+      },
+      "MAIN_BUILDING": {
+        "connects_to": {
+          "START": [[]],
+          "INDOOR_GEM_LAMPS_PRE_BRIDGE": [[]]
+        },
+        "contains": [
+          {
+            "type": "ORB_PARTIAL_ORDERED",
+            "orb": "LIZARD_HUNT",
+            "order": 5,
+            "requires": [["SPIT"], ["PERMANENT_POWERFLAME"]]
+          },
+          {
+            "type": "ORB_PARTIAL_ORDERED",
+            "orb": "LIZARD_HUNT",
+            "order": 6,
+            "requires": [["SPIT"], ["PERMANENT_POWERFLAME", "FIRST_PERSON"]]
+          }
+        ]
+      },
+      "OOB_LEDGE": {
+        "connects_to": {
+          "MAIN_BUILDING": [[]],
+          "INDOOR_GEM_LAMPS_FLIGHT_ARCHWAY_LEDGE": [["GLIDE"]],
+          "OUTDOOR_GEM_LAMPS_GROUND": [["GLIDE"]]
+        },
+        "contains": []
+      },
+      "INDOOR_GEM_LAMPS_PRE_BRIDGE": {
+        "connects_to": {
+          "INDOOR_GEM_LAMPS_POST_BRIDGE": [["UNLOCK/GLIMMER_BRIDGE"]],
+          "INDOOR_GEM_LAMPS_FLIGHT_ARCHWAY_LEDGE": [["CLIMB"]],
+          "_INDOOR_GEM_LAMPS_ORB_CUTSCENE": [["PERMANENT_POWERFLAME"]],
+          "_INDOOR_LIZARD_HUNT_LIZARD_4": [["SPIT"], ["PERMANENT_POWERFLAME"]]
+        },
+        "contains": [
+          {
+            "type": "UNLOCK",
+            "unlock": "GLIMMER_BRIDGE"
+          }
+        ]
+      },
+      "_INDOOR_LIZARD_HUNT_LIZARD_4": {
+        "connects_to": {
+          "INDOOR_GEM_LAMPS_PRE_BRIDGE": [[]]
+        },
+        "contains": [
+          {
+            "type": "ORB_PARTIAL_ORDERED",
+            "orb": "LIZARD_HUNT",
+            "order": 4,
+            "requires": [[]]
+          }
+        ]
+      },
+      "_INDOOR_GEM_LAMPS_ORB_CUTSCENE": {
+        "connects_to": {
+          "INDOOR_GEM_LAMPS_PRE_BRIDGE": [[]]
+        },
+        "contains": [
+          {
+            "type": "ORB",
+            "orb": "GEM_LAMP_FLIGHT_IN_CAVE",
+            "requires": [[]]
+          }
+        ]
+      },
+      "INDOOR_GEM_LAMPS_FLIGHT_ARCHWAY_LEDGE": {
+        "connects_to": {
+          "INDOOR_GEM_LAMPS_PRE_BRIDGE": [[]],
+          "INDOOR_GEM_LAMPS_UPPER_LEDGE": [["SUPERFLIGHT"]],
+          "_INDOOR_GEM_LAMPS_ORB_CUTSCENE": [["SUPERFLIGHT", "FLAME"]],
+          "_INDOOR_LIZARD_HUNT_LIZARD_4": [["SUPERFLIGHT", "FLAME"]]
+        },
+        "contains": []
+      },
+      "INDOOR_GEM_LAMPS_UPPER_LEDGE": {
+        "connects_to": {
+          "INDOOR_GEM_LAMPS_PRE_BRIDGE": [[]],
+          "INDOOR_GEM_LAMPS_POST_BRIDGE": [[]],
+          "_INDOOR_LIZARD_HUNT_LIZARD_4": [["CHARGE", "FLAME"]]
+        },
+        "contains": []
+      },
+      "INDOOR_GEM_LAMPS_POST_BRIDGE": {
+        "connects_to": {
+          "INDOOR_GEM_LAMPS_PRE_BRIDGE": [[]],
+          "TALISMAN_ROOM": [[]]
+        },
+        "contains": []
+      },
+      "TALISMAN_ROOM": {
+        "connects_to": {
+          "OUTDOOR_GEM_LAMPS_GROUND": [[]],
+          "INDOOR_GEM_LAMPS_AFTER_BRIDGE": [[]]
+        },
+        "contains": [{ "type": "TALISMAN", "requires": [[]] }]
+      },
+      "OUTDOOR_GEM_LAMPS_GROUND": {
+        "connects_to": {
+          "TALISMAN_ROOM": [[]],
+          "OUTDOOR_GEM_LAMPS_LEDGE": [
+            ["SUPERFLIGHT"],
+            ["CHARGE", "GLIDE", "FLUTTER"]
+          ],
+          "OUTDOOR_GEM_LAMPS_CAVE": [[]],
+          "_OUTDOOR_LIZARD_HUNT_LIZARD_2": [
+            ["SPIT"],
+            ["PERMANENT_POWERFLAME"],
+            ["SUPERFLIGHT", "FLAME"]
+          ],
+          "_OUTDOOR_LIZARD_HUNT_LIZARD_3": [
+            ["SPIT"],
+            ["PERMANENT_POWERFLAME"],
+            ["SUPERFLIGHT", "FLAME"]
+          ]
+        },
+        "contains": [
+          {
+            "type": "ORB",
+            "orb": "GEM_LAMP_FLIGHT_OUTDOORS",
+            "requires": [["SUPERFLIGHT", "FLAME"]]
+          }
+        ]
+      },
+      "OUTDOOR_GEM_LAMPS_LEDGE": {
+        "connects_to": {
+          "OUTDOOR_GEM_LAMPS_GROUND": [[]],
+          "_OUTDOOR_LIZARD_HUNT_LIZARD_2": [["FLAME"]],
+          "_OUTDOOR_LIZARD_HUNT_LIZARD_3": [["FLAME"]]
+        },
+        "contains": []
+      },
+      "_OUTDOOR_LIZARD_HUNT_LIZARD_2": {
+        "connects_to": {
+          "OUTDOOR_GEM_LAMPS_GROUND": [[]]
+        },
+        "contains": [
+          {
+            "type": "ORB_PARTIAL_ORDERED",
+            "orb": "LIZARD_HUNT",
+            "order": 2,
+            "requires": [[]]
+          }
+        ]
+      },
+      "_OUTDOOR_LIZARD_HUNT_LIZARD_3": {
+        "connects_to": {
+          "OUTDOOR_GEM_LAMPS_GROUND": [[]]
+        },
+        "contains": [
+          {
+            "type": "ORB_PARTIAL_ORDERED",
+            "orb": "LIZARD_HUNT",
+            "order": 3,
+            "requires": [[]]
+          }
+        ]
+      },
+      "OUTDOOR_GEM_LAMPS_CAVE": {
+        "connects_to": {
+          "OUTDOOR_GEM_LAMPS": [[]]
+        },
+        "contains": [
+          {
+            "type": "ORB_PARTIAL_ORDERED",
+            "orb": "LIZARD_HUNT",
+            "order": 1,
+            "requires": [["SPIT"], ["PERMANENT_POWERFLAME"]]
+          }
+        ]
+      }
+    },
+    "subregions_required_for_all_gems": [],
+    "subregions_required_for_all_spirit_particles": []
+  }
+}
