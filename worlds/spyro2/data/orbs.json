@@ -1,0 +1,16 @@
+{
+    "GLIMMER": {
+        "GEM_LAMP_FLIGHT_IN_CAVE": {
+            "name": "Gem Lamp Flight in cave",
+            "id": 3
+        },
+        "GEM_LAMP_FLIGHT_OUTDOORS": {
+            "name": "Gem Lamp Flight outdoors",
+            "id": 2
+        },
+        "LIZARD_HUNT": {
+            "name": "Lizard hunt",
+            "id": 1
+        }
+    }
+}
