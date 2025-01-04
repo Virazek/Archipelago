@@ -34,5 +34,17 @@
       "to": "INDOOR_GEM_LAMPS_FLIGHT_ARCHWAY_LEDGE"
     },
     "requires": [[]]
+  },
+  "Glimmer - Gem Lamp Flight In Cave without Superflight": {
+    "level": "GLIMMER",
+    "description": "Using a combination of double jumps and flamecharge jumps, light the gem lamps inside the cave without superflight.",
+    "estimated_difficulty": 0,
+    "is_glitch": true,
+    "type": "CONNECTS_SUBREGIONS",
+    "connects": {
+      "from": "INDOOR_GEM_LAMPS_PRE_BRIDGE",
+      "to": "_INDOOR_GEM_LAMPS_ORB_CUTSCENE"
+    },
+    "requires": [["DOUBLE_JUMP", "FLAME", "CHARGE"]]
   }
 }

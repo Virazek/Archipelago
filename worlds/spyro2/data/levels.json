@@ -4,12 +4,20 @@
     "id": 1,
     "sector_id": 1,
     "is_hubworld": false,
+    "is_speedway": false,
+    "is_boss": false,
+    "hubworld": "SUMMER_FOREST",
     "subregions": {
       "START": {
         "connects_to": {
           "MAIN_BUILDING": [[]]
         },
-        "contains": []
+        "contains": [
+            {
+                "type": "GUIDEBOOK_ENTRY",
+                "requires": [[]]
+            }
+        ]
       },
       "MAIN_BUILDING": {
         "connects_to": {
