@@ -1,7 +1,6 @@
 {
     "Glimmer - Double Jump to OoB Ledge": {
         "description": "Double jump to the out-of-bounds ledge in the area before the cave. Note that glide is required to reach anywhere useful from this ledge.",
-        "type": "CONNECTS_SUBREGIONS",
         "connects": [
             {
                 "from": "SUBREGION/GLIMMER/BEFORE_CAVE",
@@ -28,7 +27,6 @@
     },
     "Glimmer - Flamechargejump Outdoor Gem Lamps": {
         "description": "Flamechargejump the outdoor gem lamps, bypassing the need for superflight.",
-        "type": "ALLOWS_ACCESS",
         "connects": [],
         "allows_access": [
             {
