@@ -9,12 +9,13 @@ A common pattern on region connections and location/event accessibility is
 
 ```
 
-This accessibility condition means that from the subregion *BEACH*, it requires (ITEM/A **AND** ITEM/B) **OR** (ITEM/C)
+This accessibility condition means that from SUBREGION/BEACH, this location/event requires (ITEM/A **AND** ITEM/B) **OR** (ITEM/C)
 
 # Tricks
 Tricks are defined in *tricks.json*, and can do either two things (in theory they could do both but they should probably only do 1)
 
-*Connect subregions*
+## Connect Subregions
+
 This trick defines the following in its body:
 ```json
 "connects": [
@@ -33,7 +34,8 @@ This trick defines the following in its body:
 
 When this trick is enabled, each connection defined adds an entrance from the subregion *from* to the subregion *to*, which requires items in *requires*. For example, the above trick would allow traversing from SUBREGION/FOREST to SUBREGION/BEACH with (ITEM/A AND ITEM/B) OR (ITEM/C), and analoguously for traversing from SUBREGION/MOUNTAIN to SUBREGION/CITY.
 
-*Alternate accessibility condition*
+## Alternative Accessibility Condition
+
 The trick defines the following in its body:
 ```json
 "allows_access": [
