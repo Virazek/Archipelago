@@ -85,7 +85,8 @@
                 ],
                 "SUBREGION/GLIMMER/OUTDOOR_GEM_LAMPS_AIR": [
                     [
-                        "MOVE/SUPERFLIGHT"
+                        "MOVE/SUPERFLIGHT",
+                        "ARCHWAY/GLIMMER/OUTDOOR_SUPERFLIGHT"
                     ]
                 ]
             },

@@ -39,7 +39,8 @@
             "SUBREGION/GLIMMER/CAVE_SUPERFLIGHT_LEDGE": [
                 [
                     "MOVE/FLAME",
-                    "MOVE/SUPERFLIGHT"
+                    "MOVE/SUPERFLIGHT",
+                    "ARCHWAY/GLIMMER/CAVE_SUPERFLIGHT"
                 ]
             ]
         }
