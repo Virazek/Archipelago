@@ -80,7 +80,7 @@
         },
         "SUBREGION/GLIMMER/OUTDOOR_GEM_LAMPS_LEDGE": {
             "exits_to": {
-                "SUBREGION/GLIMMER/OUTDOOR_GEM_LAMPS": [[]]
+                "SUBREGION/GLIMMER/OUTDOOR_GEM_LAMPS": [["MOVE/SUPERFLIGHT"], ["MOVE/CHARGE", "MOVE/GLIDE"]]
             },
             "gems": {
 
