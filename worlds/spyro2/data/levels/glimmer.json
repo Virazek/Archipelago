@@ -2,92 +2,105 @@
     "name": "Glimmer",
     "internal_name": "MAP/GLIMMER",
     "id": 1,
-    "valid_spawn_positions": {
-        
-    },
+    "valid_spawn_positions": {},
     "subregions": {
         "SUBREGION/GLIMMER/BEFORE_CAVE": {
             "exits_to": {
-                "SUBREGION/GLIMMER/CAVE_BEFORE_BRIDGE": [[]]
+                "SUBREGION/GLIMMER/CAVE_BEFORE_BRIDGE": [
+                    []
+                ]
             },
-            "gems": {
-
-            },
-            "spirit_particles": {
-
-            }
+            "gems": {},
+            "spirit_particles": {}
         },
         "SUBREGION/GLIMMER/CAVE_BEFORE_BRIDGE": {
             "exits_to": {
-                "SUBREGION/GLIMMER/BEFORE_CAVE": [[]],
-                "SUBREGION/GLIMMER/CAVE_SUPERFLIGHT_LEDGE": [["MOVE/CLIMB"]],
-                "SUBREGION/GLIMMER/CAVE_AFTER_BRIDGE": [["UNLOCK/GLIMMER/BRIDGE"]]
+                "SUBREGION/GLIMMER/BEFORE_CAVE": [
+                    []
+                ],
+                "SUBREGION/GLIMMER/CAVE_SUPERFLIGHT_LEDGE": [
+                    [
+                        "MOVE/CLIMB"
+                    ]
+                ],
+                "SUBREGION/GLIMMER/CAVE_AFTER_BRIDGE": [
+                    [
+                        "UNLOCK/GLIMMER/BRIDGE"
+                    ]
+                ]
             },
-            "gems": {
-
-            },
-            "spirit_particles": {
-
-            }
+            "gems": {},
+            "spirit_particles": {}
         },
         "SUBREGION/GLIMMER/CAVE_SUPERFLIGHT_LEDGE": {
             "exits_to": {
-                "SUBREGION/GLIMMER/CAVE_UPPER_LEDGE": [["MOVE/SUPERFLIGHT"]],
-                "SUBREGION/GLIMMER/CAVE_AFTER_BRIDGE": [["MOVE/SUPERFLIGHT"]],
-                "SUBREGION/GLIMMER/CAVE_BEFORE_BRIDGE": [[]]
+                "SUBREGION/GLIMMER/CAVE_UPPER_LEDGE": [
+                    [
+                        "MOVE/SUPERFLIGHT"
+                    ]
+                ],
+                "SUBREGION/GLIMMER/CAVE_AFTER_BRIDGE": [
+                    [
+                        "MOVE/SUPERFLIGHT"
+                    ]
+                ],
+                "SUBREGION/GLIMMER/CAVE_BEFORE_BRIDGE": [
+                    []
+                ]
             },
-            "gems": {
-
-            },
-            "spirit_particles": {
-
-            }
+            "gems": {},
+            "spirit_particles": {}
         },
         "SUBREGION/GLIMMER/CAVE_UPPER_LEDGE": {
             "exits_to": {
-                "SUBREGION/GLIMMER/CAVE_BEFORE_BRIDGE": [[]],
-                "SUBREGION/GLIMMER/CAVE_AFTER_BRIDGE": [[]]
+                "SUBREGION/GLIMMER/CAVE_BEFORE_BRIDGE": [
+                    []
+                ],
+                "SUBREGION/GLIMMER/CAVE_AFTER_BRIDGE": [
+                    []
+                ]
             },
-            "gems": {
-
-            },
-            "spirit_particles": {
-
-            }
+            "gems": {},
+            "spirit_particles": {}
         },
         "SUBREGION/GLIMMER/CAVE_AFTER_BRIDGE": {
             "exits_to": {
-                "SUBREGION/GLIMMER/CAVE_BEFORE_BRIDGE": [[]]
+                "SUBREGION/GLIMMER/CAVE_BEFORE_BRIDGE": [
+                    []
+                ]
             },
-            "gems": {
-
-            },
-            "spirit_particles": {
-
-            }
+            "gems": {},
+            "spirit_particles": {}
         },
         "SUBREGION/GLIMMER/OUTDOOR_GEM_LAMPS": {
             "exits_to": {
-                "SUBREGION/GLIMMER/OUTDOOR_GEM_LAMPS_LEDGE": [["MOVE/CHARGE", "MOVE/GLIDE"]],
-                "SUBREGION/GLIMMER/CAVE_AFTER_BRIDGE": [[]]
+                "SUBREGION/GLIMMER/OUTDOOR_GEM_LAMPS_LEDGE": [
+                    [
+                        "MOVE/CHARGE",
+                        "MOVE/GLIDE"
+                    ]
+                ],
+                "SUBREGION/GLIMMER/CAVE_AFTER_BRIDGE": [
+                    []
+                ]
             },
-            "gems": {
-
-            },
-            "spirit_particles": {
-
-            }
+            "gems": {},
+            "spirit_particles": {}
         },
         "SUBREGION/GLIMMER/OUTDOOR_GEM_LAMPS_LEDGE": {
             "exits_to": {
-                "SUBREGION/GLIMMER/OUTDOOR_GEM_LAMPS": [["MOVE/SUPERFLIGHT"], ["MOVE/CHARGE", "MOVE/GLIDE"]]
+                "SUBREGION/GLIMMER/OUTDOOR_GEM_LAMPS": [
+                    [
+                        "MOVE/SUPERFLIGHT"
+                    ],
+                    [
+                        "MOVE/CHARGE",
+                        "MOVE/GLIDE"
+                    ]
+                ]
             },
-            "gems": {
-
-            },
-            "spirit_particles": {
-
-            }
+            "gems": {},
+            "spirit_particles": {}
         }
     }
 }

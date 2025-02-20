@@ -4,7 +4,9 @@
         "tags": [],
         "category": "TALISMAN",
         "accessible_from": {
-            "SUBREGION/GLIMMER/CAVE_AFTER_BRIDGE": [[]]
+            "SUBREGION/GLIMMER/CAVE_AFTER_BRIDGE": [
+                []
+            ]
         }
     },
     "ORB/GLIMMER/LIZARD_HUNT": {
@@ -12,7 +14,16 @@
         "tags": [],
         "category": "ORB",
         "accessible_from": {
-            "SUBREGION/GLIMMER/BEFORE_CAVE": [["EVENT/LIZARD_HUNT_LIZARD_4", "MOVE/PERMANENT_POWERFLAME"], ["EVENT/LIZARD_HUNT_LIZARD_4", "MOVE/SPIT"]]
+            "SUBREGION/GLIMMER/BEFORE_CAVE": [
+                [
+                    "EVENT/LIZARD_HUNT_LIZARD_4",
+                    "MOVE/PERMANENT_POWERFLAME"
+                ],
+                [
+                    "EVENT/LIZARD_HUNT_LIZARD_4",
+                    "MOVE/SPIT"
+                ]
+            ]
         }
     },
     "ORB/GLIMMER/GEM_LAMP_FLIGHT_IN_CAVE": {
@@ -20,8 +31,17 @@
         "tags": [],
         "category": "ORB",
         "accessible_from": {
-            "SUBREGION/GLIMMER/CAVE_BEFORE_BRIDGE": [["MOVE/PERMANENT_POWERFLAME"]],
-            "SUBREGION/GLIMMER/CAVE_SUPERFLIGHT_LEDGE": [["MOVE/FLAME", "MOVE/SUPERFLIGHT"]]
+            "SUBREGION/GLIMMER/CAVE_BEFORE_BRIDGE": [
+                [
+                    "MOVE/PERMANENT_POWERFLAME"
+                ]
+            ],
+            "SUBREGION/GLIMMER/CAVE_SUPERFLIGHT_LEDGE": [
+                [
+                    "MOVE/FLAME",
+                    "MOVE/SUPERFLIGHT"
+                ]
+            ]
         }
     },
     "ORB/GLIMMER/GEM_LAMP_FLIGHT_OUTDOORS": {
@@ -29,7 +49,15 @@
         "tags": [],
         "category": "ORB",
         "accessible_from": {
-            "SUBREGION/GLIMMER/GEM_LAMPS": [["MOVE/PERMANENT_POWERFLAME"], ["MOVE/SUPERFLIGHT", "MOVE/FLAME"]]
+            "SUBREGION/GLIMMER/OUTDOOR_GEM_LAMPS": [
+                [
+                    "MOVE/PERMANENT_POWERFLAME"
+                ],
+                [
+                    "MOVE/SUPERFLIGHT",
+                    "MOVE/FLAME"
+                ]
+            ]
         }
     }
 }
