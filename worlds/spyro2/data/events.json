@@ -1,0 +1,16 @@
+{
+    "EVENT/LIZARD_HUNT_LIZARD_STARTED": {
+        "tags": [],
+        "category": [],
+        "accessible_from": {
+            "SUBREGION/GLIMMER/OUTDOOR_GEM_LAMPS": [
+                [
+                    "MOVE/SPIT"
+                ],
+                [
+                    "MOVE/PERMANENT_POWERFLAME"
+                ]
+            ]
+        }
+    }
+}

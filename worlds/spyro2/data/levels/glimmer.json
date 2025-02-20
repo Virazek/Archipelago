@@ -82,6 +82,23 @@
                 ],
                 "SUBREGION/GLIMMER/CAVE_AFTER_BRIDGE": [
                     []
+                ],
+                "SUBREGION/GLIMMER/OUTDOOR_GEM_LAMPS_AIR": [
+                    [
+                        "MOVE/SUPERFLIGHT"
+                    ]
+                ]
+            },
+            "gems": {},
+            "spirit_particles": {}
+        },
+        "SUBREGION/GLIMMER/OUTDOOR_GEM_LAMPS_AIR": {
+            "exits_to": {
+                "SUBREGION/GLIMMER/OUTDOOR_GEM_LAMPS": [
+                    []
+                ],
+                "SUBREGION/GLIMMER/OUTDOOR_GEM_LAMPS_LEDGE": [
+                    []
                 ]
             },
             "gems": {},
@@ -89,15 +106,7 @@
         },
         "SUBREGION/GLIMMER/OUTDOOR_GEM_LAMPS_LEDGE": {
             "exits_to": {
-                "SUBREGION/GLIMMER/OUTDOOR_GEM_LAMPS": [
-                    [
-                        "MOVE/SUPERFLIGHT"
-                    ],
-                    [
-                        "MOVE/CHARGE",
-                        "MOVE/GLIDE"
-                    ]
-                ]
+                "SUBREGION/GLIMMER/OUTDOOR_GEM_LAMPS": []
             },
             "gems": {},
             "spirit_particles": {}

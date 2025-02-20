@@ -16,11 +16,11 @@
         "accessible_from": {
             "SUBREGION/GLIMMER/BEFORE_CAVE": [
                 [
-                    "EVENT/LIZARD_HUNT_LIZARD_4",
+                    "EVENT/LIZARD_HUNT_LIZARD_STARTED",
                     "MOVE/PERMANENT_POWERFLAME"
                 ],
                 [
-                    "EVENT/LIZARD_HUNT_LIZARD_4",
+                    "EVENT/LIZARD_HUNT_LIZARD_STARTED",
                     "MOVE/SPIT"
                 ]
             ]
