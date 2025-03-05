@@ -44,7 +44,8 @@
             "exits_to": {
                 "SUBREGION/GLIMMER/CAVE_UPPER_LEDGE": [
                     [
-                        "MOVE/SUPERFLIGHT"
+                        "MOVE/SUPERFLIGHT",
+                        "ARCHWAY/GLIMMER/CAVE_SUPERFLIGHT"
                     ]
                 ],
                 "SUBREGION/GLIMMER/CAVE_BEFORE_BRIDGE": [
