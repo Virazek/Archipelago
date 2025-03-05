@@ -78,6 +78,9 @@
             "exits_to": {
                 "SUBREGION/GLIMMER/CAVE_BEFORE_BRIDGE": [
                     []
+                ],
+                "SUBREGION/GLIMMER/OUTDOOR_GEM_LAMPS": [
+                    []
                 ]
             },
             "gems": {},
