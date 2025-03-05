@@ -1,6 +1,6 @@
 {
     "Glimmer - Double Jump to OoB Ledge": {
-        "description": "Double jump to the out-of-bounds ledge in the area before the cave. Note that glide is required to reach anywhere useful from this ledge.",
+        "description": "Double jump to the out-of-bounds ledge in the area before the cave. Note that you need either charge or glide to reach the outdoor gem lamps or the cave's superflight ledge.",
         "connects": [
             {
                 "from": "SUBREGION/GLIMMER/BEFORE_CAVE",
@@ -8,6 +8,10 @@
                 "requires": [
                     [
                         "MOVE/GLIDE",
+                        "MOVE/DOUBLE_JUMP"
+                    ],
+                    [
+                        "MOVE/CHARGE",
                         "MOVE/DOUBLE_JUMP"
                     ]
                 ]
