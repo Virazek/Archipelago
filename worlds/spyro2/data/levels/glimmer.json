@@ -123,6 +123,9 @@
                 ],
                 "SUBREGION/GLIMMER/OUTDOOR_GEM_LAMPS_LEDGE": [
                     []
+                ],
+                "SUBREGION/GLIMMER/CAVE_UPPER_LEDGE": [
+                    []
                 ]
             },
             "gems": {},

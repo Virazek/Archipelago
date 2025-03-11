@@ -9,11 +9,6 @@
                 ],
                 [
                     "MOVE/PERMANENT_POWERFLAME"
-                ],
-                [
-                    "MOVE/CHARGE",
-                    "MOVE/GLIDE",
-                    "MOVE/FLAME"
                 ]
             ]
         }
