@@ -45,7 +45,7 @@
                 "SUBREGION/GLIMMER/CAVE_UPPER_LEDGE": [
                     [
                         "MOVE/SUPERFLIGHT",
-                        "ARCHWAY/GLIMMER/CAVE_SUPERFLIGHT"
+                        "PYRAMID/GLIMMER/CAVE_SUPERFLIGHT"
                     ]
                 ],
                 "SUBREGION/GLIMMER/CAVE_BEFORE_BRIDGE": [
@@ -105,7 +105,7 @@
                 "SUBREGION/GLIMMER/OUTDOOR_GEM_LAMPS_AIR": [
                     [
                         "MOVE/SUPERFLIGHT",
-                        "ARCHWAY/GLIMMER/OUTDOOR_SUPERFLIGHT"
+                        "PYRAMID/GLIMMER/OUTDOOR_SUPERFLIGHT"
                     ]
                 ]
             },

@@ -63,10 +63,10 @@ class PercentageOfOrbHuntOrbs(Range):
 
 class AllGemLocations(Choice):
     """
-    Enable locations for obtaining all 400 Gems in each world.
+    Enable locations for obtaining all 400 Gems in each world. Different sized Gem Packets will be added as items to the multiworld depending on this and the 'Minor Gem Locations' option.
 
     If the 'Individual Speedway Goals' option is enabled, then each of the 5 speedways objectives (e.g., Rings, Arches, Boats, and Cars for Ocean Speedway)
-    are separate locations. Otherwise, the only Gem location for speedways is the 'All In One' objective
+    are separate locations. Otherwise, the only Gem location for speedways is the 'All In One' objective.
 
     This will add 25 or 41 locations respectively.
     """
@@ -79,13 +79,13 @@ class AllGemLocations(Choice):
 
 class MinorGemLocations(Choice):
     """
-    Enable locations pertaining to individual gems
+    Enable locations pertaining to individual gems. Different sized Gem Packets will be added as items to the multiworld depending on this and the 'All-Gem Locations' option.
 
     None: No locations added.
 
     Magenta only: Magenta Gems (the ones worth 25 Gems normally) are available locations.
 
-    Gemsanity: Every gem in the world is its own location. I take no responsibility for you ruining your multiworlds with this option.
+    Gemsanity: Every gem in the game is its own location. I take no responsibility for you ruining your multiworlds with this option.
     """
 
     display_name = "Minor Gem Locations"
@@ -97,7 +97,7 @@ class MinorGemLocations(Choice):
 
 class SkillPointLocations(Toggle):
     """
-    When enabled, the 17 Skill Points (the in-game achievement system) are available as locations
+    When enabled, the 17 Skill Points (the in-game achievement system) are available as locations.
     """
 
     display_name = "Skill Point Locations"
@@ -105,7 +105,7 @@ class SkillPointLocations(Toggle):
 
 class GuidebookEntryLocations(DefaultOnToggle):
     """
-    When enabled, entering a level for the first time will be an available location
+    When enabled, entering a level for the first time (except Dragon Shores) will be an available location.
     """
 
     display_name = "Guidebook Entry Locations"
@@ -113,26 +113,26 @@ class GuidebookEntryLocations(DefaultOnToggle):
 
 class DragonShoresTokenLocations(Toggle):
     """
-    When enabled, the 10 minigames in Dragon Shores are available as locations
+    When enabled, the 10 minigames in Dragon Shores are available as locations.
     """
 
     display_name = "Dragon Shores Token Locations"
 
 
-class PowerupArchways(Choice):
+class PowerupPyramids(Choice):
     """
-    Determines how powerup archways in levels (except the permanent powerflame archway in Dragon Shores) will provide their powerups.
+    Determines how powerup pyramids in levels (except the permanent powerflame pyramid in Dragon Shores) will provide their powerups.
 
-    Vanilla: All archways provide their powerup at the vanilla spirit particle number
+    Vanilla: All pyramids provide their powerup at the vanilla spirit particle number
 
-    Randomize Cost: Archways will have a randomized cost
+    Randomize Cost: Pyramids will have a randomized cost
 
-    Shuffle: Each Archway has its own item in the multiworld that is required to activate it
+    Shuffle: Each pyramid has its own item in the multiworld that is required to activate it
 
     Note that if 'Powerup Move Randomizer' is enabled, the item for the move itself is also required
     """
 
-    display_name = "Powerup Archways"
+    display_name = "Powerup Pyramids"
     option_vanilla = 0
     option_randomize_cost = 1
     option_shuffle = 2
@@ -145,9 +145,9 @@ class SpiritParticleLocations(Choice):
 
     None: No locations added.
 
-    Maximum: Adds a location to each world for obtaining the maximum amount of spirit particles in that world. You can see this amount on the pause menu.
+    Maximum: Adds a location to each level for obtaining the maximum amount of spirit particles in that level. You can see this amount on the pause menu.
 
-    Particlesanity: Adds a location for obtaining each number of spirit particle available in world.
+    Particlesanity: Adds a location for obtaining each number of spirit particle available each level. (e.g., in Gilmmer, there would be '1 Spirit Particle', '2 Spirit Particles' ... '14 Spirit Particles' locations)
     """
 
     display_name = "Spirit Particle Locations"
@@ -159,7 +159,7 @@ class SpiritParticleLocations(Choice):
 
 class PermanentPowerflameArchLocation(Toggle):
     """
-    When enabled, the permanent powerflame archway in Dragon Shores (the normal reward for 100%ing the game) is a location.
+    When enabled, the permanent powerflame pyramids in Dragon Shores (the normal reward for 100%ing the game) is a location.
     The door requires 64 Orbs and 10000 Gems to open.
     """
 
@@ -179,9 +179,11 @@ class RandomizedBasicMoves(OptionSet):
     """
     If 'Enable Basic Move Randomizer' is enabled, which moves are randomized.
 
+    Available options are 'Charge', 'Glide', 'Hover', 'Flame', and 'Spit'.
+
     There are 2 special alias options:
     "_Random" - Randomizes which moves are randomized
-    "_Random_Except_Charge" - Same as the above, except charge is never randomized
+    "_Random_Except_Charge" - Same as the above, except charge is never randomized, since it might not be very fun to play this game without it.
     """
 
     display_name = "Randomized Basic Moves"
@@ -209,6 +211,8 @@ class RandomizedUnlockMoves(OptionSet):
     """
     If 'Enable Unlock Move Randomizer' is enabled, which moves are randomized.
 
+    Available options are 'Swim', 'Climb', and 'Headbash'.
+
     There is a special alias option:
     "_Random" - Randomizes which moves are randomized
     """
@@ -229,6 +233,8 @@ class PowerupMoveRandomizer(Toggle):
 class RandomizedPowerupMoves(OptionSet):
     """
     If 'Enable Powerup Move Randomizer' is enabled, which moves are randomized.
+
+    Available options are 'Supercharge', 'Superfly', 'Bigbounce', 'Superfreeze', 'Temporary Powerflame', and 'Temporary Invincibility'.
 
     There is a special alias option:
     "_Random" - Randomizes which moves are randomized
@@ -258,7 +264,7 @@ class DoubleJump(DefaultOnToggle):
 class PermanentPowerflame(Toggle):
     """
     When enabled, permanent powerflame (the normal reward for 100%ing the game) will be obtainable as an item in the multiworld.
-    Otherwise, it will not be available, even from the archway in Dragon Shores.
+    Otherwise, it will not be available, even from the pyramids in Dragon Shores (regardless of the value of the 'Permanent Powerflame Arch Location' option).
     """
 
     display_name = "Permanent Powerflame"
@@ -267,6 +273,7 @@ class PermanentPowerflame(Toggle):
 class LevelPortalShuffle(Toggle):
     """
     When enabled, all level portals (except Glimmer) require a multiworld item to enter their portal (or in the case of boss levels, to open the door leading to them).
+    Boss level warps are still accessible from out-of-bounds (since they are handled differently by the game), but will require corresponding tricks to be enabled for logical access.
     """
 
     display_name = "Level Portal Shuffle"
@@ -305,7 +312,7 @@ class Spyro2Options(PerGameCommonOptions):
     spirit_particle_locations: SpiritParticleLocations
     permanent_powerflame_arch_location: PermanentPowerflameArchLocation
 
-    powerup_archways: PowerupArchways
+    powerup_pyramids: PowerupPyramids
     level_portal_shuffle: LevelPortalShuffle
 
     basic_move_randomizer: BasicMoveRandomizer

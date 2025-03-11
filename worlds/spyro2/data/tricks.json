@@ -42,7 +42,7 @@
         ]
     },
     "Glimmer - Outdoor Superflight to Cave Superflight Ledge": {
-        "description": "With precise enough flying, it is possible to fly from the outdoor superflight archway, then glide and hover to the cave superflight ledge. Note that flying to the other upper ledge in the cave is considered normal in logic.",
+        "description": "With precise enough flying, it is possible to fly from the outdoor superflight pyramids, then glide and hover to the cave superflight ledge. Note that flying to the other upper ledge in the cave is considered normal in logic.",
         "connects": [
             {
                 "from": "SUBREGION/GLIMMER/OUTDOOR_GEM_LAMPS_AIR",
