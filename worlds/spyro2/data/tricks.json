@@ -7,7 +7,6 @@
                 "to": "SUBREGION/GLIMMER/OUTDOOR_GEM_LAMPS",
                 "requires": [
                     [
-                        "MOVE/CHARGE",
                         "MOVE/DOUBLE_JUMP"
                     ]
                 ]
@@ -17,7 +16,6 @@
                 "to": "SUBREGION/GLIMMER/CAVE_SUPERFLIGHT_LEDGE",
                 "requires": [
                     [
-                        "MOVE/CHARGE",
                         "MOVE/DOUBLE_JUMP"
                     ]
                 ]
@@ -56,5 +54,21 @@
             }
         ],
         "allows_access": []
-    }
+    },
+    "Glimmer - Gem Lamp Flight in Cave Without Superflight": {
+        "description": "Light all of the cave gem lamps without superflight, using double-jumps. If going in reverse order, you can light the lamp floating over the edge after the bridge and land back on the edge with a precise flame double jump; glide is not required.",
+        "connects": [],
+        "allows_access": [
+            {
+                "to": "ORB/GLIMMER/GEM_LAMP_FLIGHT_IN_CAVE",
+                "from": "SUBREGION/GLIMMER/CAVE_UPPER_LEDGE",
+                "requires": [
+                    [
+                        "MOVE/FLAME",
+                        "MOVE/DOUBLE_JUMP"
+                    ]
+                ]
+            }
+        ]
+    },
 }
