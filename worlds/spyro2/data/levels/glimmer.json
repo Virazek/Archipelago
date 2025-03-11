@@ -96,7 +96,8 @@
                 "SUBREGION/GLIMMER/OUTDOOR_GEM_LAMPS_LEDGE": [
                     [
                         "MOVE/CHARGE",
-                        "MOVE/GLIDE"
+                        "MOVE/GLIDE",
+                        "MOVE/HOVER"
                     ]
                 ],
                 "SUBREGION/GLIMMER/CAVE_AFTER_BRIDGE": [

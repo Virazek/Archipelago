@@ -1,6 +1,6 @@
 {
     "Glimmer - Double Jump to OoB Ledge": {
-        "description": "Double jump to the out-of-bounds ledge in the area before the cave.",
+        "description": "Double jump to the out-of-bounds ledge in the area before the cave. You can reach the extended out-of-bounds area and the cave superflight ledge with only charge.",
         "connects": [
             {
                 "from": "SUBREGION/GLIMMER/BEFORE_CAVE",
@@ -14,6 +14,36 @@
             {
                 "from": "SUBREGION/GLIMMER/BEFORE_CAVE",
                 "to": "SUBREGION/GLIMMER/CAVE_SUPERFLIGHT_LEDGE",
+                "requires": [
+                    [
+                        "MOVE/DOUBLE_JUMP"
+                    ]
+                ]
+            }
+        ],
+        "allows_access": []
+    },
+    "Glimmer - Double Jump to Cave Ledge": {
+        "description": "Double jump to the non-superflight upper ledge in the cave.",
+        "connects": [
+            {
+                "from": "SUBREGION/GLIMMER/CAVE_BEFORE_BRIDGE",
+                "to": "SUBREGION/GLIMMER/CAVE_UPPER_LEDGE",
+                "requires": [
+                    [
+                        "MOVE/DOUBLE_JUMP"
+                    ]
+                ]
+            }
+        ],
+        "allows_access": []
+    },
+    "Glimmer - Double Jump to Outdoor Ledge": {
+        "description": "Double jump to the upper ledge in the outdoor gem lamps area (where the second and third lizards in 'Lizard hunt' are).",
+        "connects": [
+            {
+                "from": "SUBREGION/GLIMMER/OUTDOOR_GEM_LAMPS",
+                "to": "SUBREGION/GLIMMER/OUTDOOR_GEM_LAMPS_LEDGE",
                 "requires": [
                     [
                         "MOVE/DOUBLE_JUMP"
@@ -56,7 +86,7 @@
         "allows_access": []
     },
     "Glimmer - Gem Lamp Flight in Cave Without Superflight": {
-        "description": "Light all of the cave gem lamps without superflight, using double-jumps. If going in reverse order, you can light the lamp floating over the edge after the bridge and land back on the edge with a precise flame double jump; glide is not required.",
+        "description": "Light all of the cave gem lamps without superflight, using double jumps. If going in reverse order, you can light the lamp floating over the edge after the bridge and land back on the edge with a precise flame double jump; glide is not required.",
         "connects": [],
         "allows_access": [
             {
@@ -70,5 +100,5 @@
                 ]
             }
         ]
-    },
+    }
 }
