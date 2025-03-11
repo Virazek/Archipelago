@@ -100,5 +100,16 @@
                 ]
             }
         ]
+    },
+    "Glimmer - Gem Lamp Flight in Cave Orb Cutscene Teleport": {
+        "description": "Use the Orb cutscene for 'Gem Lamp Flight in Cave' to reach the upper superflight ledge.",
+        "connects": [
+            {
+                "from": "ORB/GLIMMER/GEM_LAMP_FLIGHT_IN_CAVE",
+                "to": "SUBREGION/GLIMMER/CAVE_SUPERFLIGHT_LEDGE",
+                "requires": []
+            }
+        ],
+        "allows_access": []
     }
 }
