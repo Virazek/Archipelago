@@ -12,9 +12,9 @@
             },
             "gems": {},
             "spirit_particles": {
-                "CHARGE": 0,
-                "FLAME": 1,
-                "ANY": 5
+                "MOVE/CHARGE": 0,
+                "MOVE/FLAME": 1,
+                "_FREE": 5
             }
         },
         "SUBREGION/GLIMMER/CAVE_BEFORE_BRIDGE": {
@@ -35,9 +35,9 @@
             },
             "gems": {},
             "spirit_particles": {
-                "CHARGE": 0,
-                "FLAME": 2,
-                "ANY": 2
+                "MOVE/CHARGE": 0,
+                "MOVE/FLAME": 2,
+                "_FREE": 2
             }
         },
         "SUBREGION/GLIMMER/CAVE_SUPERFLIGHT_LEDGE": {
@@ -54,9 +54,9 @@
             },
             "gems": {},
             "spirit_particles": {
-                "CHARGE": 0,
-                "FLAME": 0,
-                "ANY": 0
+                "MOVE/CHARGE": 0,
+                "MOVE/FLAME": 0,
+                "_FREE": 0
             }
         },
         "SUBREGION/GLIMMER/CAVE_UPPER_LEDGE": {
@@ -70,9 +70,9 @@
             },
             "gems": {},
             "spirit_particles": {
-                "CHARGE": 0,
-                "FLAME": 0,
-                "ANY": 0
+                "MOVE/CHARGE": 0,
+                "MOVE/FLAME": 0,
+                "_FREE": 0
             }
         },
         "SUBREGION/GLIMMER/CAVE_AFTER_BRIDGE": {
@@ -86,9 +86,9 @@
             },
             "gems": {},
             "spirit_particles": {
-                "CHARGE": 0,
-                "FLAME": 1,
-                "ANY": 1
+                "MOVE/CHARGE": 0,
+                "MOVE/FLAME": 1,
+                "_FREE": 1
             }
         },
         "SUBREGION/GLIMMER/OUTDOOR_GEM_LAMPS": {
@@ -112,9 +112,9 @@
             },
             "gems": {},
             "spirit_particles": {
-                "CHARGE": 0,
-                "FLAME": 1,
-                "ANY": 1
+                "MOVE/CHARGE": 0,
+                "MOVE/FLAME": 1,
+                "_FREE": 1
             }
         },
         "SUBREGION/GLIMMER/OUTDOOR_GEM_LAMPS_AIR": {
@@ -131,9 +131,9 @@
             },
             "gems": {},
             "spirit_particles": {
-                "CHARGE": 0,
-                "FLAME": 0,
-                "ANY": 0
+                "MOVE/CHARGE": 0,
+                "MOVE/FLAME": 0,
+                "_FREE": 0
             }
         },
         "SUBREGION/GLIMMER/OUTDOOR_GEM_LAMPS_LEDGE": {
@@ -142,9 +142,9 @@
             },
             "gems": {},
             "spirit_particles": {
-                "CHARGE": 0,
-                "FLAME": 0,
-                "ANY": 0
+                "MOVE/CHARGE": 0,
+                "MOVE/FLAME": 0,
+                "_FREE": 0
             }
         }
     }
