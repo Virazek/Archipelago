@@ -141,7 +141,7 @@ class PowerupPyramids(Choice):
 
 class SpiritParticleLocations(Choice):
     """
-    Determines how locations for spirit particles (that you receive from killing enemies) are added
+    Determines how locations for spirit particles (that you receive from defeating enemies) are added
 
     None: No locations added.
 
@@ -157,7 +157,7 @@ class SpiritParticleLocations(Choice):
     default = 1
 
 
-class PermanentPowerflameArchLocation(Toggle):
+class PermanentPowerflamePyramidsLocation(Toggle):
     """
     When enabled, the permanent powerflame pyramids in Dragon Shores (the normal reward for 100%ing the game) is a location.
     The door requires 64 Orbs and 10000 Gems to open.
@@ -181,7 +181,7 @@ class RandomizedBasicMoves(OptionSet):
 
     Available options are 'Charge', 'Glide', 'Hover', 'Flame', and 'Spit'.
 
-    There are 2 special alias options:
+    There are 2 special alias options. These assume priority over individual options if both are specified:
     "_Random" - Randomizes which moves are randomized
     "_Random_Except_Charge" - Same as the above, except charge is never randomized, since it might not be very fun to play this game without it.
     """
@@ -213,7 +213,7 @@ class RandomizedUnlockMoves(OptionSet):
 
     Available options are 'Swim', 'Climb', and 'Headbash'.
 
-    There is a special alias option:
+    There is a special alias option. This assumes priority over individual options if both are specified:
     "_Random" - Randomizes which moves are randomized
     """
 
@@ -236,7 +236,7 @@ class RandomizedPowerupMoves(OptionSet):
 
     Available options are 'Supercharge', 'Superfly', 'Bigbounce', 'Superfreeze', 'Temporary Powerflame', and 'Temporary Invincibility'.
 
-    There is a special alias option:
+    There is a special alias option. This assumes priority over individual options if both are specified:
     "_Random" - Randomizes which moves are randomized
     """
 
@@ -277,6 +277,13 @@ class LevelPortalShuffle(Toggle):
     """
 
     display_name = "Level Portal Shuffle"
+
+class LevelPortalRandomization(Toggle):
+    """
+    When enabled, level portals will send you to a random level within the hubworld.
+    """
+
+    display_name = "Level Portal Randomization"
 
 
 class GuidebookEntriesAsItems(Toggle):
