@@ -160,7 +160,7 @@ class SpiritParticleLocations(Choice):
 class PermanentPowerflamePyramidsLocation(Toggle):
     """
     When enabled, the permanent powerflame pyramids in Dragon Shores (the normal reward for 100%ing the game) is a location.
-    The door requires 64 Orbs and 10000 Gems to open.
+    The door requires 64 Orbs and 10000 Gems to open. If the 'Number of Orbs' option value resolves to less than 64, this option will be forcibly disabled during generation.
     """
 
     display_name = "Permanent Powerflame Arch Location"
@@ -255,6 +255,7 @@ class RandomizedPowerupMoves(OptionSet):
 class DoubleJump(DefaultOnToggle):
     """
     When enabled, the double jump glitch will be obtainable as an item in the multiworld. Otherwise, it will be patched out.
+    If you have 'Basic Move Randomizer' active, 'Charge' is also required to be able to double jump.
     If you want to have it from the start, use 'start_inventory'.
     """
 
@@ -263,7 +264,7 @@ class DoubleJump(DefaultOnToggle):
 
 class PermanentPowerflame(Toggle):
     """
-    When enabled, permanent powerflame (the normal reward for 100%ing the game) will be obtainable as an item in the multiworld.
+    When enabled, permanent powerflame (the normal reward for 100%ing the game) will be obtainable as a progression item in the multiworld.
     Otherwise, it will not be available, even from the pyramids in Dragon Shores (regardless of the value of the 'Permanent Powerflame Arch Location' option).
     """
 
@@ -285,6 +286,21 @@ class LevelPortalRandomization(Toggle):
 
     display_name = "Level Portal Randomization"
 
+class RandomStartLocation(Choice):
+    """
+    Determines if the locations where Spyro can spawn within levels will be randomized:
+
+    None: Spyro spawns at the vanilla location in all levels
+    Hubworld Only: Spawn locations in hubworlds are randomized, but not within levels
+    Levels Only: Spawn location in hubworlds are vanilla, but are randomized within levels
+    All: Spawn locations for both hubworlds and levels are randomized
+    """
+    display_name = "Random Start Location"
+    option_none = 0
+    option_hubworld_only = 1
+    option_levels_only = 2
+    option_all = 3
+    default = 0
 
 class GuidebookEntriesAsItems(Toggle):
     """
@@ -302,7 +318,7 @@ class Tricks(OptionList):
     """
 
     display_name = "Trick Allow List"
-    default = []
+    default = ()
 
 
 @dataclass
@@ -317,7 +333,7 @@ class Spyro2Options(PerGameCommonOptions):
     guidebook_entry_locations: GuidebookEntryLocations
     dragon_shores_token_locations: DragonShoresTokenLocations
     spirit_particle_locations: SpiritParticleLocations
-    permanent_powerflame_arch_location: PermanentPowerflameArchLocation
+    permanent_powerflame_arch_location: PermanentPowerflamePyramidsLocation
 
     powerup_pyramids: PowerupPyramids
     level_portal_shuffle: LevelPortalShuffle
@@ -356,7 +372,7 @@ spyro2_option_groups = [
             GuidebookEntryLocations,
             DragonShoresTokenLocations,
             SpiritParticleLocations,
-            PermanentPowerflameArchLocation,
+            PermanentPowerflamePyramidsLocation,
         ],
     ),
     OptionGroup(
