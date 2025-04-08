@@ -1,0 +1,257 @@
+{
+    "name": "Summer Forest",
+    "internal_name": "MAP/SUMMER_FOREST",
+    "id": 0,
+    "valid_spawn_positions": {},
+    "subregions": {
+        "SUBREGION/SUMMER_FOREST/GLIMMER_PORTAL_COURTYARD": {
+            "exits_to": {
+                "PORTAL/GLIMMER": [
+                    []
+                ],
+                "SUBREGION/SUMMER_FOREST/GLIMMER_PORTAL_COURTYARD_UNDERWATER": [
+                    [
+                        "MOVE/SWIM"
+                    ]
+                ],
+                "SUBREGION/SUMMER_FOREST/OUTSIDE_PORTALS_HUB": [
+                    [
+                        "MOVE/CHARGE"
+                    ],
+                    [
+                        "MOVE/GLIDE"
+                    ]
+                ]
+            },
+            "gems": {}
+        },
+        "SUBREGION/SUMMER_FOREST/GLIMMER_PORTAL_COURTYARD_UNDERWATER": {
+            "exits_to": {
+                "SUBREGION/SUMMER_FOREST/GLIMMER_PORTAL_COURTYARD": [
+                    []
+                ],
+                "SUBREGION/SUMMER_FOREST/SECRET_LEDGE": [
+                    []
+                ]
+            },
+            "gems": {}
+        },
+        "SUBREGION/SUMMER_FOREST/OUTSIDE_PORTALS_HUB": {
+            "exits_to": {
+                "SUBREGION/SUMMER_FOREST/GLIMMER_PORTAL_COURTYARD": [
+                    []
+                ],
+                "PORTAL/IDOL_SPRINGS": [
+                    [
+                        "PORTAL/IDOL_SPRINGS"
+                    ]
+                ],
+                "PORTAL/COLOSSUS": [
+                    [
+                        "PORTAL/COLOSSUS"
+                    ]
+                ],
+                "PORTAL/AUTUMN_PLAINS/SUMMER_FOREST_1": [
+                    [
+                        "PORTAL/AUTUMN_PLAINS"
+                    ]
+                ],
+                "PORTAL/WINTER_TUNDRA/SUMMER_FOREST_1": [
+                    [
+                        "PORTAL/WINTER_TUNDRA"
+                    ]
+                ],
+                "SUBREGION/SUMMER_FOREST/HUNTERS_CHALLENGE_PLATFORM_2": [
+                    [
+                        "MOVE/CHARGE"
+                    ],
+                    [
+                        "MOVE/GLIDE"
+                    ]
+                ],
+                "SUBREGION/SUMMER_FOREST/OUTSIDE_PORTALS_HUB_UNDERWATER": [
+                    [
+                        "MOVE/SWIM"
+                    ]
+                ]
+            },
+            "gems": {}
+        },
+        "SUBREGION/SUMMER_FOREST/HUNTERS_CHALLENGE_PLATFORM_2": {
+            "exits_to": {
+                "SUBREGION/SUMMER_FOREST/OUTSIDE_PORTALS_HUB": [
+                    []
+                ],
+                "SUBREGION/SUMMER_FOREST/HUNTERS_CHALLENGE_PLATFORM_3": [
+                    [
+                        "MOVE/GLIDE",
+                        "MOVE/HOVER"
+                    ],
+                    [
+                        "MOVE/CHARGE",
+                        "MOVE/GLIDE"
+                    ]
+                ]
+            },
+            "gems": {}
+        },
+        "SUBREGION/SUMMER_FOREST/HUNTERS_CHALLENGE_PLATFORM_3": {
+            "exits_to": {
+                "SUBREGION/SUMMER_FOREST/OUTSIDE_PORTALS_HUB": [
+                    []
+                ],
+                "SUBREGION/SUMMER_FOREST/HUNTERS_CHALLENGE_FINAL_PLATFORM": [
+                    [
+                        "MOVE/GLIDE",
+                        "MOVE/HOVER"
+                    ],
+                    [
+                        "MOVE/CHARGE",
+                        "MOVE/GLIDE"
+                    ]
+                ]
+            },
+            "gems": {}
+        },
+        "SUBREGION/SUMMER_FOREST/HUNTERS_CHALLENGE_FINAL_PLATFORM": {
+            "exits_to": {
+                "SUBREGION/SUMMER_FOREST/OUTSIDE_PORTALS_HUB": [
+                    []
+                ]
+            },
+            "gems": {}
+        },
+        "SUBREGION/SUMMER_FOREST/SECRET_LEDGE": {
+            "exits_to": {
+                "SUBREGION/SUMMER_FOREST/GLIMMER_PORTAL_COURTYARD_UNDERWATER": [
+                    [
+                        "MOVE/SWIM"
+                    ]
+                ],
+                "SUBREGION/SUMMER_FOREST/OUTSIDE_PORTALS_HUB": [
+                    []
+                ]
+            },
+            "gems": {}
+        },
+        "SUBREGION/SUMMER_FOREST/OUTSIDE_PORTALS_HUB_UNDERWATER": {
+            "exits_to": {
+                "SUBREGION/SUMMER_FOREST/OUTSIDE_PORTALS_HUB": [
+                    []
+                ],
+                "SUBREGION/SUMMER_FOREST/UNDERWATER_TO_INSIDE_PORTALS_HUB_CONNECTOR": [
+                    []
+                ]
+            },
+            "gems": {}
+        },
+        "SUBREGION/SUMMER_FOREST/UNDERWATER_TO_INSIDE_PORTALS_HUB_CONNECTOR": {
+            "exits_to": {
+                "SUBREGION/SUMMER_FOREST/OUTSIDE_PORTALS_HUB_UNDERWATER": [
+                    [
+                        "MOVE/SWIM"
+                    ]
+                ],
+                "SUBREGION/SUMMER_FOREST/INSIDE_PORTALS_HUB": [
+                    [
+                        "MOVE/CHARGE"
+                    ],
+                    [
+                        "MOVE/FLAME"
+                    ],
+                    [
+                        "MOVE/PERMANENT_POWERFLAME"
+                    ]
+                ]
+            },
+            "gems": {}
+        },
+        "SUBREGION/SUMMER_FOREST/INSIDE_PORTALS_HUB": {
+            "exits_to": {
+                "SUBREGION/SUMMER_FOREST/OUTSIDE_PORTALS_HUB_UNDERWATER": [
+                    [
+                        "MOVE/SWIM"
+                    ]
+                ],
+                "SUBREGION/SUMMER_FOREST/UNDERWATER_TO_INSIDE_PORTALS_HUB_CONNECTOR": [
+                    [
+                        "MOVE/CHARGE"
+                    ],
+                    [
+                        "MOVE/FLAME"
+                    ],
+                    [
+                        "MOVE/PERMANENT_POWERFLAME"
+                    ]
+                ],
+                "PORTAL/HURRICOS": [
+                    [
+                        "PORTAL/HURRICOS"
+                    ]
+                ],
+                "PORTAL/SUNNY_BEACH": [
+                    [
+                        "PORTAL/SUNNY_BEACH"
+                    ]
+                ],
+                "SUBREGION/SUMMER_FOREST/ATOP_A_LADDER_LEDGE": [
+                    [
+                        "MOVE/CLIMB"
+                    ]
+                ],
+                "PORTAL/OCEAN_SPEEDWAY": [
+                    [
+                        "PORTAL/OCEAN_SPEEDWAY"
+                    ]
+                ],
+                "SUBREGION/SUMMER_FOREST/OUTSIDE_CRUSHS_DUNGEON": [
+                    []
+                ],
+                "SUBREGION/SUMMER_FOREST/BEHIND_THE_DOOR": [
+                    ["MOVE/GLIDE"]
+                ]
+            },
+            "gems": {}
+        },
+        "SUBREGION/SUMMER_FOREST/ATOP_A_LADDER_LEDGE": {
+            "exits_to": {
+                "SUBREGION/SUMMER_FOREST/INSIDE_PORTALS_HUB": [
+                    []
+                ]
+            },
+            "gems": {}
+        },
+        "SUBREGION/SUMMER_FOREST/OUTSIDE_CRUSHS_DUNGEON": {
+            "exits_to": {
+                "SUBREGION/SUMMER_FOREST/INSIDE_PORTALS_HUB": [
+                    [
+                        "MOVE/CHARGE"
+                    ],
+                    [
+                        "MOVE/FLAME"
+                    ],
+                    [
+                        "MOVE/PERMANENT_POWERFLAME"
+                    ]
+                ],
+                "SUBREGION/SUMMER_FOREST/BEHIND_AQUARIA_TOWERS_WALLS": [["UNLOCK/SUMMER_FOREST/AQUARIA_TOWERS_WALLS"]],
+                "PORTAL/AUTUMN_PLAINS/SUMMER_FOREST_2": [["PORTAL/AUTUMN_PLAINS"]],
+                "PORTAL/WINTER_TUNDRA/SUMMER_FOREST_2": [["PORTAL/WINTER_TUNDRA"]],
+                "PORTAL/CRUSHS_DUNGEON": [["UNLOCK/SUMMER_FOREST/CRUSHS_DUNGEON_WALL"]]
+            },
+            "gems": {}
+        },
+        "SUBREGION/SUMMER_FOREST/BEHIND_THE_DOOR": {
+            "exits_to": {
+                "SUBREGION/SUMMER_FOREST/OUTSIDE_CRUSHS_DUNGEON": [[]]
+            },
+            "gems": {}
+        },
+        "SUBREGION/SUMMER_FOREST/BEHIND_AQUARIA_TOWERS_WALLS": {
+            "exits_to": {
+                "SUBREGION/SUMMER_FOREST/OUTSIDE_CRUSHS_DUNGEON": [["UNLOCK/SUMMER_FOREST/AQUARIA_TOWERS_WALLS"]],
+                "PORTAL/AQUARIA_TOWERS": [["PORTAL/AQUARIA_TOWERS"]]
+            }
+        }
+    }
+}
