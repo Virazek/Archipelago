@@ -9,6 +9,18 @@
             ]
         }
     },
+    "MONEYBAGS/GLIMMER/BRIDGE": {
+        "label": "Moneybags - Glimmer - Bridge",
+        "tags": [],
+        "category": "MONEYBAGS",
+        "accessible_from": {
+            "SUBREGION/GLIMMER/CAVE_BEFORE_BRIDGE": [
+                [
+                    "COST/GLIMMER/BRIDGE"
+                ]
+            ]
+        }
+    },
     "ORB/GLIMMER/LIZARD_HUNT": {
         "label": "Orb - Glimmer - Lizard hunt",
         "tags": [],
@@ -58,6 +70,58 @@
             "SUBREGION/GLIMMER/OUTDOOR_GEM_LAMPS_AIR": [
                 [
                     "MOVE/FLAME"
+                ]
+            ]
+        }
+    },
+    "ORB/SUMMER_FOREST/HUNTERS_CHALLENGE": {
+        "label": "Orb - Summer Forest - Hunter's Challenge",
+        "tags": [],
+        "category": "ORB",
+        "accessible_from": {
+            "SUBREGION/SUMMER_FOREST/HUNTERS_CHALLENGE_FINAL_PLATFORM": [
+                []
+            ]
+        }
+    },
+    "ORB/SUMMER_FOREST/ON_A_SECRET_LEDGE": {
+        "label": "Orb - Summer Forest - On a secret ledge",
+        "tags": [],
+        "category": "ORB",
+        "accessible_from": {
+            "SUBREGION/SUMMER_FOREST/SECRET_LEDGE": [
+                []
+            ]
+        }
+    },
+    "ORB/SUMMER_FOREST/ATOP_A_LADDER": {
+        "label": "Orb - Summer Forest - Atop a ladder",
+        "tags": [],
+        "category": "ORB",
+        "accessible_from": {
+            "SUBREGION/SUMMER_FOREST/ATOP_A_LADDER_LEDGE": [
+                []
+            ]
+        }
+    },
+    "ORB/SUMMER_FOREST/BEHIND_THE_DOOR": {
+        "label": "Orb - Summer Forest - Behind the door",
+        "tags": [],
+        "category": "ORB",
+        "accessible_from": {
+            "SUBREGION/SUMMER_FOREST/BEHIND_THE_DOOR": [
+                []
+            ]
+        }
+    },
+    "MONEYBAGS/SUMMER_FOREST/AQUARIA_TOWERS_WALLS": {
+        "label": "Moneybags - Summer Forest - Aquaria Towers Walls",
+        "tags": [],
+        "category": "MONEYBAGS",
+        "accessible_from": {
+            "SUBREGION/SUMMER_FOREST/OUTSIDE_CRUSHS_DUNGEON": [
+                [
+                    "COST/SUMMER_FOREST/AQUARIA_TOWERS_WALLS"
                 ]
             ]
         }
