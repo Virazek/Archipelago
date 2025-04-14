@@ -119,24 +119,21 @@ class DragonShoresTokenLocations(Toggle):
     display_name = "Dragon Shores Token Locations"
 
 
-# class PowerupPyramids(Choice):
-#     """
-#     Determines how powerup pyramids in levels (except the permanent powerflame pyramid in Dragon Shores) will provide their powerups.
+class PowerupPyramids(Choice):
+    """
+    Determines how powerup pyramids in levels (except the permanent powerflame pyramid in Dragon Shores) will provide their powerups.
 
-#     Vanilla: All pyramids provide their powerup at the vanilla spirit particle number
+    Vanilla: All pyramids provide their powerup at the vanilla spirit particle number
 
-#     Randomize Cost: Pyramids will have a randomized cost
+    Randomize Cost: Pyramids will have a randomized cost
 
-#     Shuffle: Each pyramid has its own item in the multiworld that is required to activate it
+    Note that if 'Powerup Move Randomizer' is enabled, the item for the move itself is also required
+    """
 
-#     Note that if 'Powerup Move Randomizer' is enabled, the item for the move itself is also required
-#     """
-
-#     display_name = "Powerup Pyramids"
-#     option_vanilla = 0
-#     option_randomize_cost = 1
-#     option_shuffle = 2
-#     default = 1
+    display_name = "Powerup Pyramids"
+    option_vanilla = 0
+    option_randomize_cost = 1
+    default = 1
 
 
 class SpiritParticleLocations(Choice):
@@ -335,7 +332,7 @@ class Spyro2Options(PerGameCommonOptions):
     spirit_particle_locations: SpiritParticleLocations
     permanent_powerflame_arch_location: PermanentPowerflamePyramidsLocation
 
-    # powerup_pyramids: PowerupPyramids
+    powerup_pyramids: PowerupPyramids
     level_portal_shuffle: LevelPortalShuffle
 
     basic_move_randomizer: BasicMoveRandomizer
