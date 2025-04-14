@@ -16,7 +16,7 @@
         "accessible_from": {
             "SUBREGION/GLIMMER/CAVE_BEFORE_BRIDGE": [
                 [
-                    "COST/GLIMMER/BRIDGE"
+                    "_COST/GLIMMER/BRIDGE"
                 ]
             ]
         }
@@ -121,7 +121,7 @@
         "accessible_from": {
             "SUBREGION/SUMMER_FOREST/OUTSIDE_CRUSHS_DUNGEON": [
                 [
-                    "COST/SUMMER_FOREST/AQUARIA_TOWERS_WALLS"
+                    "_COST/SUMMER_FOREST/AQUARIA_TOWERS_WALLS"
                 ]
             ]
         }
