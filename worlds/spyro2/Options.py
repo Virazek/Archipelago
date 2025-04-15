@@ -127,12 +127,15 @@ class PowerupPyramids(Choice):
 
     Randomize Cost: Pyramids will have a randomized cost
 
+    Shuffle: Each level has an item in the multiworld that will activate its pyramids
+
     Note that if 'Powerup Move Randomizer' is enabled, the item for the move itself is also required
     """
 
     display_name = "Powerup Pyramids"
     option_vanilla = 0
     option_randomize_cost = 1
+    option_shuffle = 2
     default = 1
 
 
