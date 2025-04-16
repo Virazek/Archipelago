@@ -1,231 +1,235 @@
 {
-    "Glimmer - Double Jump to OoB Ledge": {
-        "description": "Double jump to the out-of-bounds ledge in the area before the cave. You can reach the extended out-of-bounds area and the cave superflight ledge with only charge.",
-        "connects": [
-            {
-                "from": "SUBREGION/GLIMMER/BEFORE_CAVE",
-                "to": "SUBREGION/GLIMMER/OUTDOOR_GEM_LAMPS",
-                "requires": [
-                    [
-                        "MOVE/DOUBLE_JUMP"
+    "Glimmer": {
+        "Double Jump to Out-of-Bounds Ledge": {
+            "description": "Double jump to the out-of-bounds ledge in the area before the cave. You can reach the extended out-of-bounds area and the cave superflight ledge with only charge.",
+            "connects": [
+                {
+                    "from": "SUBREGION/GLIMMER/BEFORE_CAVE",
+                    "to": "SUBREGION/GLIMMER/OUTDOOR_GEM_LAMPS",
+                    "requires": [
+                        [
+                            "MOVE/DOUBLE_JUMP"
+                        ]
                     ]
-                ]
-            },
-            {
-                "from": "SUBREGION/GLIMMER/BEFORE_CAVE",
-                "to": "SUBREGION/GLIMMER/CAVE_SUPERFLIGHT_LEDGE",
-                "requires": [
-                    [
-                        "MOVE/DOUBLE_JUMP"
+                },
+                {
+                    "from": "SUBREGION/GLIMMER/BEFORE_CAVE",
+                    "to": "SUBREGION/GLIMMER/CAVE_SUPERFLIGHT_LEDGE",
+                    "requires": [
+                        [
+                            "MOVE/DOUBLE_JUMP"
+                        ]
                     ]
-                ]
-            }
-        ],
-        "allows_access": []
+                }
+            ],
+            "allows_access": []
+        },
+        "Double Jump to Cave Ledge": {
+            "description": "Double jump to the non-superflight upper ledge in the cave.",
+            "connects": [
+                {
+                    "from": "SUBREGION/GLIMMER/CAVE_BEFORE_BRIDGE",
+                    "to": "SUBREGION/GLIMMER/CAVE_UPPER_LEDGE",
+                    "requires": [
+                        [
+                            "MOVE/DOUBLE_JUMP"
+                        ]
+                    ]
+                }
+            ],
+            "allows_access": []
+        },
+        "Double Jump to Outdoor Ledge": {
+            "description": "Double jump to the upper ledge in the outdoor gem lamps area (where the second and third lizards in 'Lizard hunt' are).",
+            "connects": [
+                {
+                    "from": "SUBREGION/GLIMMER/OUTDOOR_GEM_LAMPS",
+                    "to": "SUBREGION/GLIMMER/OUTDOOR_GEM_LAMPS_LEDGE",
+                    "requires": [
+                        [
+                            "MOVE/DOUBLE_JUMP"
+                        ]
+                    ]
+                }
+            ],
+            "allows_access": []
+        },
+        "Flamechargejump Outdoor Gem Lamps": {
+            "description": "Flamechargejump the outdoor gem lamps, bypassing the need for superflight.",
+            "connects": [],
+            "allows_access": [
+                {
+                    "to": "ORB/GLIMMER/GEM_LAMP_FLIGHT_OUTDOORS",
+                    "from": "SUBREGION/GLIMMER/OUTDOOR_GEM_LAMPS",
+                    "requires": [
+                        [
+                            "MOVE/FLAME",
+                            "MOVE/CHARGE"
+                        ]
+                    ]
+                }
+            ]
+        },
+        "Outdoor Superflight to Cave Superflight Ledge": {
+            "description": "With precise enough flying, it is possible to fly from the outdoor superflight pyramids, then glide and hover to the cave superflight ledge. Note that flying to the other upper ledge in the cave is considered normal in logic.",
+            "connects": [
+                {
+                    "from": "SUBREGION/GLIMMER/OUTDOOR_GEM_LAMPS_AIR",
+                    "to": "SUBREGION/GLIMMER/CAVE_SUPERFLIGHT_LEDGE",
+                    "requires": [
+                        [
+                            "MOVE/GLIDE",
+                            "MOVE/HOVER"
+                        ]
+                    ]
+                }
+            ],
+            "allows_access": []
+        },
+        "Gem Lamp Flight in Cave Without Superflight": {
+            "description": "Light all of the cave gem lamps without superflight, using double jumps. If going in reverse order, you can light the lamp floating over the edge after the bridge and land back on the edge with a precise flame double jump; glide is not required.",
+            "connects": [],
+            "allows_access": [
+                {
+                    "to": "ORB/GLIMMER/GEM_LAMP_FLIGHT_IN_CAVE",
+                    "from": "SUBREGION/GLIMMER/CAVE_UPPER_LEDGE",
+                    "requires": [
+                        [
+                            "MOVE/FLAME",
+                            "MOVE/DOUBLE_JUMP"
+                        ]
+                    ]
+                }
+            ]
+        },
+        "Gem Lamp Flight in Cave Orb Cutscene Teleport": {
+            "description": "Use the Orb cutscene for 'Gem Lamp Flight in Cave' to reach the upper superflight ledge.",
+            "connects": [
+                {
+                    "from": "ORB/GLIMMER/GEM_LAMP_FLIGHT_IN_CAVE",
+                    "to": "SUBREGION/GLIMMER/CAVE_SUPERFLIGHT_LEDGE",
+                    "requires": [
+                        []
+                    ]
+                }
+            ],
+            "allows_access": []
+        }
     },
-    "Glimmer - Double Jump to Cave Ledge": {
-        "description": "Double jump to the non-superflight upper ledge in the cave.",
-        "connects": [
-            {
-                "from": "SUBREGION/GLIMMER/CAVE_BEFORE_BRIDGE",
-                "to": "SUBREGION/GLIMMER/CAVE_UPPER_LEDGE",
-                "requires": [
-                    [
-                        "MOVE/DOUBLE_JUMP"
+    "Summer Forest": {
+        "Double Jump to On a Secret Ledge": {
+            "description": "With a precise double jump, glide, and hover, it is possible to reach the 'On a Secret Ledge' Orb from the final 'Hunter's Challenge' platform.",
+            "connects": [
+                {
+                    "from": "SUBREGION/SUMMER_FOREST/HUNTERS_CHALLENGE_FINAL_PLATFORM",
+                    "to": "SUBREGION/SUMMER_FOREST/SECRET_LEDGE",
+                    "requires": [
+                        [
+                            "MOVE/DOUBLE_JUMP",
+                            "MOVE/GLIDE",
+                            "MOVE/HOVER"
+                        ]
                     ]
-                ]
-            }
-        ],
-        "allows_access": []
-    },
-    "Glimmer - Double Jump to Outdoor Ledge": {
-        "description": "Double jump to the upper ledge in the outdoor gem lamps area (where the second and third lizards in 'Lizard hunt' are).",
-        "connects": [
-            {
-                "from": "SUBREGION/GLIMMER/OUTDOOR_GEM_LAMPS",
-                "to": "SUBREGION/GLIMMER/OUTDOOR_GEM_LAMPS_LEDGE",
-                "requires": [
-                    [
-                        "MOVE/DOUBLE_JUMP"
+                }
+            ],
+            "allows_access": []
+        },
+        "Out-of-Bounds Glide to Inside Portal Hub Connector": {
+            "description": "Glide from the an area near the third 'Hunter's Challenge' platform that lacks collision to the connecting tunnel to the inside portal hub. This is possible with just glide, but you still need to be able to press the button to be able to enter the inside portal hub. This also gives access to the underwater area, but will require you to reload the hubworld.",
+            "connects": [
+                {
+                    "from": "SUBREGION/SUMMER_FOREST/HUNTERS_CHALLENGE_PLATFORM_3",
+                    "to": "SUBREGION/SUMMER_FOREST/OUTSIDE_PORTALS_HUB_UNDERWATER",
+                    "requires": [
+                        [
+                            "MOVE/GLIDE"
+                        ]
                     ]
-                ]
-            }
-        ],
-        "allows_access": []
-    },
-    "Glimmer - Flamechargejump Outdoor Gem Lamps": {
-        "description": "Flamechargejump the outdoor gem lamps, bypassing the need for superflight.",
-        "connects": [],
-        "allows_access": [
-            {
-                "to": "ORB/GLIMMER/GEM_LAMP_FLIGHT_OUTDOORS",
-                "from": "SUBREGION/GLIMMER/OUTDOOR_GEM_LAMPS",
-                "requires": [
-                    [
-                        "MOVE/FLAME",
-                        "MOVE/CHARGE"
+                },
+                {
+                    "from": "SUBREGION/SUMMER_FOREST/HUNTERS_CHALLENGE_PLATFORM_3",
+                    "to": "SUBREGION/SUMMER_FOREST/UNDERWATER_TO_INSIDE_PORTALS_HUB_CONNECTOR",
+                    "requires": [
+                        [
+                            "MOVE/GLIDE"
+                        ]
                     ]
-                ]
-            }
-        ]
-    },
-    "Glimmer - Outdoor Superflight to Cave Superflight Ledge": {
-        "description": "With precise enough flying, it is possible to fly from the outdoor superflight pyramids, then glide and hover to the cave superflight ledge. Note that flying to the other upper ledge in the cave is considered normal in logic.",
-        "connects": [
-            {
-                "from": "SUBREGION/GLIMMER/OUTDOOR_GEM_LAMPS_AIR",
-                "to": "SUBREGION/GLIMMER/CAVE_SUPERFLIGHT_LEDGE",
-                "requires": [
-                    [
-                        "MOVE/GLIDE",
-                        "MOVE/HOVER"
+                }
+            ],
+            "allows_access": []
+        },
+        "Ladder Froxy": {
+            "description": "Proxy off of a frog to reach the ledge above the ladder in the inside portal hub.",
+            "connects": [
+                {
+                    "from": "SUBREGION/SUMMER_FOREST/INSIDE_PORTALS_HUB",
+                    "to": "SUBREGION/SUMMER_FOREST/ATOP_A_LADDER_LEDGE",
+                    "requires": [
+                        [
+                            "MOVE/CHARGE"
+                        ]
                     ]
-                ]
-            }
-        ],
-        "allows_access": []
-    },
-    "Glimmer - Gem Lamp Flight in Cave Without Superflight": {
-        "description": "Light all of the cave gem lamps without superflight, using double jumps. If going in reverse order, you can light the lamp floating over the edge after the bridge and land back on the edge with a precise flame double jump; glide is not required.",
-        "connects": [],
-        "allows_access": [
-            {
-                "to": "ORB/GLIMMER/GEM_LAMP_FLIGHT_IN_CAVE",
-                "from": "SUBREGION/GLIMMER/CAVE_UPPER_LEDGE",
-                "requires": [
-                    [
-                        "MOVE/FLAME",
-                        "MOVE/DOUBLE_JUMP"
+                }
+            ],
+            "allows_access": []
+        },
+        "Crush Early": {
+            "description": "Double jump through a seam in the door near the Sunny Beach portal and glide out-of-bounds to the Crush's Dungeon entrance.",
+            "connects": [
+                {
+                    "from": "SUBREGION/SUMMER_FOREST/INSIDE_PORTALS_HUB",
+                    "to": "PORTAL/CRUSHS_DUNGEON",
+                    "requires": [
+                        [
+                            "MOVE/DOUBLE_JUMP",
+                            "MOVE/FLAME",
+                            "MOVE/GLIDE"
+                        ],
+                        [
+                            "MOVE/DOUBLE_JUMP",
+                            "MOVE/PERMANENT_POWERFLAME",
+                            "MOVE/GLIDE"
+                        ]
                     ]
-                ]
-            }
-        ]
-    },
-    "Glimmer - Gem Lamp Flight in Cave Orb Cutscene Teleport": {
-        "description": "Use the Orb cutscene for 'Gem Lamp Flight in Cave' to reach the upper superflight ledge.",
-        "connects": [
-            {
-                "from": "ORB/GLIMMER/GEM_LAMP_FLIGHT_IN_CAVE",
-                "to": "SUBREGION/GLIMMER/CAVE_SUPERFLIGHT_LEDGE",
-                "requires": [
-                    []
-                ]
-            }
-        ],
-        "allows_access": []
-    },
-    "Summer Forest - Double Jump to 'On a Secret Ledge'": {
-        "description": "With a precise double jump, glide, and hover, it is possible to reach the 'On a Secret Ledge' Orb from the final 'Hunter's Challenge' platform.",
-        "connects": [
-            {
-                "from": "SUBREGION/SUMMER_FOREST/HUNTERS_CHALLENGE_FINAL_PLATFORM",
-                "to": "SUBREGION/SUMMER_FOREST/SECRET_LEDGE",
-                "requires": [
-                    [
-                        "MOVE/DOUBLE_JUMP",
-                        "MOVE/GLIDE",
-                        "MOVE/HOVER"
+                }
+            ],
+            "allows_access": []
+        },
+        "Crush Early (No Double Jump)": {
+            "description": "Reach the upper Aquaria Towers wall with a precise chargejump and flop from the doorframe leading to the area outside of Crush's Dungeon, then glide to the boss portal. In order to prevent softlocks, the Aquaria Towers wall will only lower once the door to Crush's Dungeon is open. Logical access to the Aquaria Towers portal will require either the door to Crush's Dungeon, or the ability to do this trick.",
+            "connects": [
+                {
+                    "from": "SUBREGION/SUMMER_FOREST/INSIDE_PORTALS_HUB",
+                    "to": "PORTAL/CRUSHS_DUNGEON",
+                    "requires": [
+                        [
+                            "MOVE/CHARGE",
+                            "MOVE/GLIDE"
+                        ]
                     ]
-                ]
-            }
-        ],
-        "allows_access": []
-    },
-    "Summer Forest - Out of Bounds Glide to Inside Portal Hub Connector": {
-        "description": "Glide from the third 'Hunter's Challenge' platform to the connecting tunnel to the inside portal hub. This is possible with just glide, but you still need to be able to press the button to be able to enter the inside portal hub. This also gives access to the underwater area, but will require you to reload the hubworld.",
-        "connects": [
-            {
-                "from": "SUBREGION/SUMMER_FOREST/HUNTERS_CHALLENGE_PLATFORM_3",
-                "to": "SUBREGION/SUMMER_FOREST/OUTSIDE_PORTALS_HUB_UNDERWATER",
-                "requires": [
-                    [
-                        "MOVE/GLIDE"
+                },
+                {
+                    "from": "SUBREGION/SUMMER_FOREST/INSIDE_PORTALS_HUB",
+                    "to": "SUBREGION/SUMMER_FOREST/BEHIND_AQUARIA_TOWERS_WALLS",
+                    "requires": [
+                        [
+                            "MOVE/CHARGE",
+                            "MOVE/GLIDE"
+                        ]
                     ]
-                ]
-            },
-            {
-                "from": "SUBREGION/SUMMER_FOREST/HUNTERS_CHALLENGE_PLATFORM_3",
-                "to": "SUBREGION/SUMMER_FOREST/UNDERWATER_TO_INSIDE_PORTALS_HUB_CONNECTOR",
-                "requires": [
-                    [
-                        "MOVE/GLIDE"
+                },
+                {
+                    "from": "SUBREGION/SUMMER_FOREST/OUTSIDE_CRUSHS_DUNGEON",
+                    "to": "SUBREGION/SUMMER_FOREST/BEHIND_AQUARIA_TOWERS_WALLS",
+                    "requires": [
+                        [
+                            "UNLOCK/SUMMER_FOREST/AQUARIA_TOWERS_WALLS",
+                            "UNLOCK/SUMMER_FOREST/CRUSHS_DUNGEON_DOOR"
+                        ]
                     ]
-                ]
-            }
-        ],
-        "allows_access": []
-    },
-    "Summer Forest - Ladder Froxy": {
-        "description": "Proxy off of a frog to reach the ledge above the ladder in the inside portal hub.",
-        "connects": [
-            {
-                "from": "SUBREGION/SUMMER_FOREST/INSIDE_PORTALS_HUB",
-                "to": "SUBREGION/SUMMER_FOREST/ATOP_A_LADDER_LEDGE",
-                "requires": [
-                    [
-                        "MOVE/CHARGE"
-                    ]
-                ]
-            }
-        ],
-        "allows_access": []
-    },
-    "Summer Forest - Crush Early": {
-        "description": "Double jump through a seam in the door near the Sunny Beach portal and glide out-of-bounds to the Crush's Dungeon entrance.",
-        "connects": [
-            {
-                "from": "SUBREGION/SUMMER_FOREST/INSIDE_PORTALS_HUB",
-                "to": "PORTAL/CRUSHS_DUNGEON",
-                "requires": [
-                    [
-                        "MOVE/DOUBLE_JUMP",
-                        "MOVE/FLAME",
-                        "MOVE/GLIDE"
-                    ],
-                    [
-                        "MOVE/DOUBLE_JUMP",
-                        "MOVE/PERMANENT_POWERFLAME",
-                        "MOVE/GLIDE"
-                    ]
-                ]
-            }
-        ],
-        "allows_access": []
-    },
-    "Summer Forest - Crush Early (No Double Jump)": {
-        "description": "Reach the upper Aquaria Towers wall with a precise chargejump and flop from the doorframe leading to the area outside of Crush's Dungeon, then glide to the boss portal. In order to prevent softlocks, the Aquaria Towers wall will only lower once the door to Crush's Dungeon is open. Logical access to the Aquaria Towers portal will be either this trick, or the Crush's Dungeon door along with the Aquaria Towers wall.",
-        "connects": [
-            {
-                "from": "SUBREGION/SUMMER_FOREST/INSIDE_PORTALS_HUB",
-                "to": "PORTAL/CRUSHS_DUNGEON",
-                "requires": [
-                    [
-                        "MOVE/CHARGE",
-                        "MOVE/GLIDE"
-                    ]
-                ]
-            },
-            {
-                "from": "SUBREGION/SUMMER_FOREST/INSIDE_PORTALS_HUB",
-                "to": "SUBREGION/SUMMER_FOREST/BEHIND_AQUARIA_TOWERS_WALLS",
-                "requires": [
-                    [
-                        "MOVE/CHARGE",
-                        "MOVE/GLIDE"
-                    ]
-                ]
-            },
-            {
-                "from": "SUBREGION/SUMMER_FOREST/OUTSIDE_CRUSHS_DUNGEON",
-                "to": "SUBREGION/SUMMER_FOREST/BEHIND_AQUARIA_TOWERS_WALLS",
-                "requires": [
-                    [
-                        "UNLOCK/SUMMER_FOREST/AQUARIA_TOWERS_WALLS",
-                        "UNLOCK/SUMMER_FOREST/CRUSHS_DUNGEON_DOOR"
-                    ]
-                ]
-            }
-        ],
-        "allows_access": []
+                }
+            ],
+            "allows_access": []
+        }
     }
 }

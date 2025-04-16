@@ -3,13 +3,7 @@
         "tags": [],
         "category": [],
         "accessible_from": {
-            "SUBREGION/GLIMMER/OUTDOOR_GEM_LAMPS": [
-                [
-                    "MOVE/SPIT"
-                ],
-                [
-                    "MOVE/PERMANENT_POWERFLAME"
-                ]
+            "SUBREGION/GLIMMER/OUTDOOR_GEM_LAMPS": [[]
             ]
         }
     }
