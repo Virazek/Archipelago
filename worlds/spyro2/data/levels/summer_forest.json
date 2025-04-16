@@ -201,13 +201,20 @@
                 ],
                 "PORTAL/OCEAN_SPEEDWAY": [
                     [
+                        "UNLOCK/OCEAN_SPEEDWAY",
                         "PORTAL/OCEAN_SPEEDWAY"
                     ]
                 ],
                 "SUBREGION/SUMMER_FOREST/OUTSIDE_CRUSHS_DUNGEON": [
                     []
                 ],
-                "SUBREGION/SUMMER_FOREST/BEHIND_THE_DOOR": [
+                "SUBREGION/SUMMER_FOREST/BEHIND_THE_DOOR_DOOR_2": [
+                    ["MOVE/GLIDE"]
+                ],
+                "SUBREGION/SUMMER_FOREST/BEHIND_THE_DOOR_DOOR_1": [
+                    ["MOVE/CHARGE"],
+                    ["MOVE/FLAME"],
+                    ["MOVE/PERMANENT_POWERFLAME"],
                     ["MOVE/GLIDE"]
                 ]
             },
@@ -241,7 +248,13 @@
             },
             "gems": {}
         },
-        "SUBREGION/SUMMER_FOREST/BEHIND_THE_DOOR": {
+        "SUBREGION/SUMMER_FOREST/BEHIND_THE_DOOR_DOOR_1": {
+            "exits_to": {
+                "SUBREGION/SUMMER_FOREST/OUTSIDE_CRUSHS_DUNGEON": [[]]
+            },
+            "gems": {}
+        },
+        "SUBREGION/SUMMER_FOREST/BEHIND_THE_DOOR_DOOR_2": {
             "exits_to": {
                 "SUBREGION/SUMMER_FOREST/OUTSIDE_CRUSHS_DUNGEON": [[]]
             },
