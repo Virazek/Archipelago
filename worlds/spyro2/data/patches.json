@@ -1,0 +1,14 @@
+{
+    "add_additional_header": {
+        "description": "PSX-EXEs have a 0x800-byte header. The first 0x04C-bytes are used internally. Then, there is a region marker, and the rest is zero-filled. However, the BIOS nor the game do not verify or use this region marker or the zero-space, so we can treat it as additional free space. In the packed binary, the header starts at 0xDC98, and the free space starts at 0xDD20.",
+        "patches": {
+            "0xDD20": "ARCHIPELAGO",
+            "0xDD2B": "VERSION/ARCHIPELAGO_GENERATOR",
+            "0xDD30": "SPYRO2AP",
+            "0xDD38": "VERSION/SPYRO2AP",
+            "0xDD40": "TOKEN/AUTH_TOKEN",
+            "0xDD50": "archipelago_options_start",
+            "0xE490": "header_end"
+        }
+    }
+}
