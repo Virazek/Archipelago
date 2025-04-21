@@ -256,7 +256,8 @@ class DoubleJump(DefaultOnToggle):
     """
     When enabled, the double jump glitch will be obtainable as an item in the multiworld. Otherwise, it will be patched out.
     If you have 'Basic Move Randomizer' active, 'Charge' is also required to be able to double jump.
-    If you want to have it from the start, use 'start_inventory'.
+    If you want to have it available from the start (as in the vanilla game), use 'start_inventory'.
+    If this option is disabled, any trick specified in the 'Tricks' option that requires double jump will be forcibly disabled.
     """
 
     display_name = "Double Jump"
@@ -313,8 +314,8 @@ class GuidebookEntriesAsItems(Toggle):
 
 class Tricks(OptionList):
     """
-    A list of tricks to allow in-logic. Values should match the trick name found here:
-
+    A list of tricks to allow in-logic.
+    Values should be formatted as '{map_name} - {trick_name}'. Tricks are detailed in
     """
 
     display_name = "Trick Allow List"
