@@ -95,7 +95,6 @@
             "exits_to": {
                 "SUBREGION/GLIMMER/OUTDOOR_GEM_LAMPS_LEDGE": [
                     [
-                        "MOVE/CHARGE",
                         "MOVE/GLIDE",
                         "MOVE/HOVER"
                     ]

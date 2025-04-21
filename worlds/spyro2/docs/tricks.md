@@ -4,8 +4,7 @@
 
 ### Double Jump to On a Secret Ledge
 
-With a precise double jump, glide, and hover, it is possible to reach the 'On a
-Secret Ledge' Orb from the final 'Hunter's Challenge' platform.
+With a precise double jump, glide, and hover, it is possible to reach the 'On a Secret Ledge' Orb from the final 'Hunter's Challenge' platform.
 
 ### Out-of-Bounds Glide to Inside Portal Hub Connector
 
@@ -21,12 +20,11 @@ Double jump through a seam in the door near the Sunny Beach portal and glide out
 
 ### Crush Early (No Double Jump)
 
-Reach the upper Aquaria Towers wall with a precise chargejump and flop from the doorframe leading to the area outside of Crush's Dungeon, then glide to the boss portal. In order to prevent softlocks, the Aquaria Towers wall will only lower once the door to Crush's Dungeon is open. Logical access to the Aquaria Towers portal will require either the door to Crush's Dungeon or another trick that allows access without lowering the wall (See 'Airswim to Aquaria Towers',
-'Double Jump to Aquaria Towers', and 'Flop to Aquaria Towers').
+Reach the upper Aquaria Towers wall with a precise chargejump and flop from the doorframe leading to the area outside of Crush's Dungeon, then glide to the boss portal. In order to prevent softlocks, the Aquaria Towers wall will only lower once the door to Crush's Dungeon is open. Logical access to the Aquaria Towers portal will require either the door to Crush's Dungeon and the Aquaria Towers wall, or another trick that allows access without lowering the wall (See 'Airswim to Aquaria Towers', 'Double Jump to Aquaria Towers', and 'Flop to Aquaria Towers').
 
 ### Crush Early (No Flame)
 
-Reach the upper Aquaria Towers wall with a double jump, then glide to the boss portal. In order to prevent softlocks, the Aquaria Towers wall will only lower once the door to Crush's Dungeon is open. Logical access to the Aquaria Towers portal will require either the door to Crush's Dungeon or another trick that allows access without lowering the wall (See 'Airswim to Aquaria Towers', 'Double Jump to Aquaria Towers', and 'Flop to Aquaria Towers').
+Reach the upper Aquaria Towers wall with a double jump, then glide to the boss portal. In order to prevent softlocks, the Aquaria Towers wall will only lower once the door to Crush's Dungeon is open. Logical access to the Aquaria Towers portal will require either the door to Crush's Dungeon and the Aquaria Towers Wall, or another trick that allows access without lowering the wall (See 'Airswim to Aquaria Towers', 'Double Jump to Aquaria Towers', and 'Flop to Aquaria Towers').
 
 ### Airswim to Secret Ledge
 
@@ -38,19 +36,19 @@ Double jump through a seam in the door near the Sunny Beach portal and airswim u
 
 ### Airswim to Ocean Speedway
 
-Double jump through a seam in the door near the Sunny Beach portal and airswim using the pools near the Sunny Beach portal to reach the Ocean Speedway portal from out-of-bounds. If the 'Level Portal Shuffle' option is enabled, the corresponding multiworld item is still required to enter the portal.
+Double jump through a seam in the door near the Sunny Beach portal and airswim using the pools near the Sunny Beach portal to reach the Ocean Speedway portal from out-of-bounds. If the 'Level Portal Shuffle' option is enabled, the corresponding multiworld item is still required to enter the portal. Meeting the requirements from Elora will move the portal in-bounds.
 
 ### Airswim to Aquaria Towers
 
-Double jump through a seam in the door near the Sunny Beach portal and airswim using the pools near the Sunny Beach portal to reach the Aquaria Towers portal.
+Double jump through a seam in the door near the Sunny Beach portal and airswim using the pools near the Sunny Beach portal to reach the Aquaria Towers portal. You can use the 'Reload Hub' option in the pause menu to leave the area behind the wall.
 
 ### Double Jump to Aquaria Towers
 
-Double jump onto the Aquaria Towers wall. This is possible without glide if done from the ledge behind the first door leading to the 'Behind the Door' Orb.
+Double jump onto the Aquaria Towers wall. This is possible without glide if done from the ledge behind the first door leading to the 'Behind the Door' Orb. You can use the 'Reload Hub' option in the pause menu to leave the area behind the wall.
 
 ### Flop to Aquaria Towers
 
-Reach the upper Aquaria Towers wall with a precise flop from the top of the doorframe leading to Crush's Dungeon.
+Reach the upper Aquaria Towers wall with a precise flop from the top of the doorframe leading to Crush's Dungeon. You can use the 'Reload Hub' option in the pause menu to leave the area behind the wall.
 
 
 ## Glimmer
