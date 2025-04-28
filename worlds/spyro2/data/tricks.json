@@ -20,8 +20,8 @@
                         ]
                     ]
                 }
-            ],
-            "allows_access": []
+            ]
+            
         },
         "Double Jump to Cave Ledge": {
             "connects": [
@@ -34,8 +34,8 @@
                         ]
                     ]
                 }
-            ],
-            "allows_access": []
+            ]
+            
         },
         "Double Jump to Outdoor Ledge": {
             "connects": [
@@ -48,13 +48,12 @@
                         ]
                     ]
                 }
-            ],
-            "allows_access": []
+            ]
+            
         },
         "Flamechargejump Outdoor Gem Lamps": {
             "description": "Flamechargejump the outdoor gem lamps, bypassing the need for superflight.",
-            "connects": [],
-            "allows_access": [
+            "connects": [
                 {
                     "to": "ORB/GLIMMER/GEM_LAMP_FLIGHT_OUTDOORS",
                     "from": "SUBREGION/GLIMMER/OUTDOOR_GEM_LAMPS",
@@ -79,12 +78,11 @@
                         ]
                     ]
                 }
-            ],
-            "allows_access": []
+            ]
+            
         },
         "Gem Lamp Flight in Cave Without Superflight": {
-            "connects": [],
-            "allows_access": [
+            "connects": [
                 {
                     "to": "ORB/GLIMMER/GEM_LAMP_FLIGHT_IN_CAVE",
                     "from": "SUBREGION/GLIMMER/CAVE_UPPER_LEDGE",
@@ -106,8 +104,8 @@
                         []
                     ]
                 }
-            ],
-            "allows_access": []
+            ]
+            
         }
     },
     "Summer Forest": {
@@ -124,8 +122,8 @@
                         ]
                     ]
                 }
-            ],
-            "allows_access": []
+            ]
+            
         },
         "Out-of-Bounds Glide to Inside Portal Hub Connector": {
             "connects": [
@@ -147,8 +145,8 @@
                         ]
                     ]
                 }
-            ],
-            "allows_access": []
+            ]
+            
         },
         "Ladder Froxy": {
             "connects": [
@@ -161,8 +159,8 @@
                         ]
                     ]
                 }
-            ],
-            "allows_access": []
+            ]
+            
         },
         "Crush Early": {
             "connects": [
@@ -182,8 +180,8 @@
                         ]
                     ]
                 }
-            ],
-            "allows_access": []
+            ]
+            
         },
         "Crush Early (No Double Jump)": {
             "connects": [
@@ -217,8 +215,8 @@
                         ]
                     ]
                 }
-            ],
-            "allows_access": []
+            ]
+            
         },
         "Crush Early (No Flame)": {
             "connects": [
@@ -252,8 +250,8 @@
                         ]
                     ]
                 }
-            ],
-            "allows_access": []
+            ]
+            
         },
         "Airswim to Secret Ledge": {
             "connects": [
@@ -268,8 +266,8 @@
                         ]
                     ]
                 }
-            ],
-            "allows_access": []
+            ]
+            
         },
         "Airswim to Top of the Ladder": {
             "connects": [
@@ -284,8 +282,8 @@
                         ]
                     ]
                 }
-            ],
-            "allows_access": []
+            ]
+            
         },
         "Airswim to Ocean Speedway": {
             "connects": [
@@ -300,8 +298,8 @@
                         ]
                     ]
                 }
-            ],
-            "allows_access": []
+            ]
+            
         },
         "Airswim to Aquaria Towers": {
             "connects": [
@@ -316,8 +314,8 @@
                         ]
                     ]
                 }
-            ],
-            "allows_access": []
+            ]
+            
         },
         "Double Jump to Aquaria Towers": {
             "connects": [
@@ -330,8 +328,8 @@
                         ]
                     ]
                 }
-            ],
-            "allows_access": []
+            ]
+            
         },
         "Flop to Aquaria Towers": {
             "connects": [
@@ -345,8 +343,8 @@
                         ]
                     ]
                 }
-            ],
-            "allows_access": []
+            ]
+            
         }
     }
 }
