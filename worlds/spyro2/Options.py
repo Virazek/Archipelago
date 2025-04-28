@@ -13,11 +13,11 @@ from Options import (
 
 class Goal(Choice):
     """
-    Determines the goal for this world.
+    Determines the goal for this world:
 
-    Ripto: Defeat Ripto in Winter Tundra
+    Ripto: Defeat Ripto in Winter Tundra.
 
-    All Bosses: Defeat Crush in Summer Forest, Gulp in Autumn Plains, and Ripto in Winter Tundra
+    All Bosses: Defeat Crush in Summer Forest, Gulp in Autumn Plains, and Ripto in Winter Tundra.
 
     Orb Hunt: Find a certain number of Orbs in the multiworld.
     """
@@ -120,14 +120,14 @@ class DragonShoresTokenLocations(Toggle):
 
 class SpiritParticleLocations(Choice):
     """
-    Determines how locations for spirit particles (that you receive from defeating enemies) are added
+    Determines how locations for spirit particles (that you receive from defeating enemies) are added:
 
     None: No locations added.
 
     Maximum: Adds a location to each level for obtaining the maximum amount of spirit particles in that level. You can see this amount on the pause menu.
 
     Particlesanity: Adds a location for obtaining each number of spirit particle available each level. (e.g., in Glimmer, there would be '1 Spirit Particle', '2 Spirit Particles' ... '14 Spirit Particles' locations). I take no responsibility for you ruining your multiworlds with this option.
-    
+
     These will add 18 and 416 locations respectively.
     """
 
@@ -577,6 +577,76 @@ class DragonShoresPortalUnlockPercentage(Range):
     """
 
     display_name = "Dragon Shores Portal Unlock Percentage"
+    range_start = 1
+    range_end = 100
+
+
+class CloudTemplesPortalUnlockType(Choice):
+    """
+    Determines what type of collectable unlocks the Cloud Temples portal from the Professor in Winter Tundra.
+    The portal behavior depends on the value of the 'Level Portal Shuffle' option:
+
+    Disabled: The Professor will move the portal in-bounds.
+
+    Shuffle: The level portal item is required to enter the portal. The Professor will move the portal in-bounds.
+
+    Shuffle No OOB Access: The Professor will give a random multiworld item. The level portal item will move the portal in-bounds.
+
+    A special value, 'Vanilla', is available, which will leave the unlock at its vanilla cost. Choosing this option will ignore the 'Cloud Temples Portal Unlock Percentage' option.
+    The 'Item' option will unlock upon receiving the 'Unlock - Cloud Temples Portal' multiworld item. If 'Level Portal Shuffle' and the 'Item' options are enabled, this option will be forcibly changed to 'Vanilla'.
+    """
+
+    display_name = "Cloud Temples Portal Unlock Type"
+    option_gems = 0
+    option_orbs = 1
+    option_talismans = 2
+    option_tokens = 3
+    option_vanilla = 4
+    option_item = 5
+    default = 4
+
+
+class CloudTemplesPortalUnlockPercentage(Range):
+    """
+    Determines what percentage of collectables in the pool (of type determined by the 'Cloud Temples Portal Unlock Type' option) are required to unlock the Cloud Temples portal from the Professor in Winter Tundra.
+    """
+
+    display_name = "Cloud Temples Portal Unlock Percentage"
+    range_start = 1
+    range_end = 100
+
+
+class MetropolisPortalUnlockType(Choice):
+    """
+    Determines what type of collectable unlocks the Metropolis portal from the Professor in Winter Tundra.
+    The portal behavior depends on the value of the 'Level Portal Shuffle' option:
+
+    Disabled: The Professor will move the portal in-bounds.
+
+    Shuffle: The level portal item is required to enter the portal. The Professor will move the portal in-bounds.
+
+    Shuffle No OOB Access: The Professor will give a random multiworld item. The level portal item will move the portal in-bounds.
+
+    A special value, 'Vanilla', is available, which will leave the unlock at its vanilla cost. Choosing this option will ignore the 'Metropolis Portal Unlock Percentage' option.
+    The 'Item' option will unlock upon receiving the 'Unlock - Metropolis Portal' multiworld item. If 'Level Portal Shuffle' and the 'Item' options are enabled, this option will be forcibly changed to 'Vanilla'.
+    """
+
+    display_name = "Metropolis Portal Unlock Type"
+    option_gems = 0
+    option_orbs = 1
+    option_talismans = 2
+    option_tokens = 3
+    option_vanilla = 4
+    option_item = 5
+    default = 4
+
+
+class MetropolisPortalUnlockPercentage(Range):
+    """
+    Determines what percentage of collectables in the pool (of type determined by the 'Metropolis Portal Unlock Type' option) are required to unlock the Metropolis portal from the Professor in Winter Tundra.
+    """
+
+    display_name = "Metropolis Portal Unlock Percentage"
     range_start = 1
     range_end = 100
 
