@@ -91,7 +91,8 @@ class MinorGemLocations(Choice):
 
 class SkillPointLocations(Toggle):
     """
-    When enabled, the 17 Skill Points (the in-game achievement system) are available as locations.
+    When enabled, the Skill Points (the in-game achievement system) are available as locations.
+    This will add 17 locations.
     """
 
     display_name = "Skill Point Locations"
@@ -100,6 +101,7 @@ class SkillPointLocations(Toggle):
 class GuidebookEntryLocations(DefaultOnToggle):
     """
     When enabled, entering a level for the first time (except Dragon Shores) will be an available location.
+    This will add 28 locations.
     """
 
     display_name = "Guidebook Entry Locations"
@@ -107,9 +109,10 @@ class GuidebookEntryLocations(DefaultOnToggle):
 
 class DragonShoresTokenLocations(Toggle):
     """
-    When enabled, the 10 minigames in Dragon Shores are available as locations.
+    When enabled, the minigames in Dragon Shores are available as locations.
     The Dragon Shores tokens will be shuffled into the item pool and the Gnorcs will give a random multiworld item.
     Otherwise, they will have their vanilla tokens.
+    This will add 10 locations.
     """
 
     display_name = "Dragon Shores Token Locations"
@@ -123,7 +126,9 @@ class SpiritParticleLocations(Choice):
 
     Maximum: Adds a location to each level for obtaining the maximum amount of spirit particles in that level. You can see this amount on the pause menu.
 
-    Particlesanity: Adds a location for obtaining each number of spirit particle available each level. (e.g., in Gilmmer, there would be '1 Spirit Particle', '2 Spirit Particles' ... '14 Spirit Particles' locations)
+    Particlesanity: Adds a location for obtaining each number of spirit particle available each level. (e.g., in Glimmer, there would be '1 Spirit Particle', '2 Spirit Particles' ... '14 Spirit Particles' locations). I take no responsibility for you ruining your multiworlds with this option.
+    
+    These will add 18 and 416 locations respectively.
     """
 
     display_name = "Spirit Particle Locations"
@@ -146,13 +151,13 @@ class PowerupPyramids(Choice):
     """
     Determines how powerup pyramids in levels (except the permanent powerflame pyramid in Dragon Shores) will provide their powerups.
 
-    Vanilla: All pyramids provide their powerup at the vanilla spirit particle number
+    Vanilla: All pyramids provide their powerup at the vanilla spirit particle number.
 
-    Randomize Cost: Pyramids will have a randomized cost
+    Randomize Cost: Pyramids will have a randomized spirit particle cost.
 
-    Shuffle: Each level has an item in the multiworld that will activate its pyramids
+    Shuffle: Each level has an item in the multiworld that will activate its pyramids.
 
-    Note that if 'Powerup Move Randomizer' is enabled, the item for the move itself is also required
+    Note that if 'Powerup Move Randomizer' is enabled, the item for the move itself is also required.
     """
 
     display_name = "Powerup Pyramids"
