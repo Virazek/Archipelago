@@ -108,6 +108,8 @@ class GuidebookEntryLocations(DefaultOnToggle):
 class DragonShoresTokenLocations(Toggle):
     """
     When enabled, the 10 minigames in Dragon Shores are available as locations.
+    The Dragon Shores tokens will be shuffled into the item pool and the Gnorcs will give a random multiworld item.
+    Otherwise, they will have their vanilla tokens.
     """
 
     display_name = "Dragon Shores Token Locations"
