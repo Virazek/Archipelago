@@ -4,7 +4,7 @@
 
 ### Double Jump to On a Secret Ledge
 
-With a precise double jump, glide, and hover, it is possible to reach the 'On a Secret Ledge' Orb from the final 'Hunter's Challenge' platform.
+With a precise double jump, glide, and hover, reach the 'On a Secret Ledge' Orb from the final 'Hunter's Challenge' platform.
 
 ### Out-of-Bounds Glide to Inside Portal Hub Connector
 
@@ -20,7 +20,7 @@ Double jump through a seam in the door near the Sunny Beach portal and glide out
 
 ### Crush Early (No Double Jump)
 
-Reach the upper Aquaria Towers wall with a precise chargejump and flop from the doorframe leading to the area outside of Crush's Dungeon, then glide to the boss portal. In order to prevent softlocks, the Aquaria Towers wall will only lower once the door to Crush's Dungeon is open. Logical access to the Aquaria Towers portal will require either the door to Crush's Dungeon and the Aquaria Towers wall, or another trick that allows access without lowering the wall (See 'Airswim to Aquaria Towers', 'Double Jump to Aquaria Towers', and 'Flop to Aquaria Towers').
+Reach the upper Aquaria Towers wall with a chargejump and flop from the doorframe leading to the area outside of Crush's Dungeon, then glide to the boss portal. In order to prevent softlocks, the Aquaria Towers wall will only lower once the door to Crush's Dungeon is open. Logical access to the Aquaria Towers portal will require either the door to Crush's Dungeon and the Aquaria Towers wall, or another trick that allows access without lowering the wall (See 'Airswim to Aquaria Towers', 'Double Jump to Aquaria Towers', and 'Flop to Aquaria Towers').
 
 ### Crush Early (No Flame)
 
@@ -48,14 +48,14 @@ Double jump onto the Aquaria Towers wall. This is possible without glide if done
 
 ### Flop to Aquaria Towers
 
-Reach the upper Aquaria Towers wall with a precise flop from the top of the doorframe leading to Crush's Dungeon. You can use the 'Reload Hub' option in the pause menu to leave the area behind the wall.
+Reach the upper Aquaria Towers wall with a flop from the top of the doorframe leading to Crush's Dungeon. You can use the 'Reload Hub' option in the pause menu to leave the area behind the wall.
 
 
 ## Glimmer
 
 ### Double Jump to Out-of-Bounds Ledge
 
-Double jump to the out-of-bounds ledge in the area before the cave. You can reach the extended out-of-bounds area and the cave superflight ledge with only charge.
+Double jump to the out-of-bounds ledge in the area before the cave. You can reach the extended out-of-bounds area and the cave superflight ledge with only charge. You can also double jump from the large green gem inside the cave to reach the superflight ledge.
 
 ### Double Jump to Cave Ledge
 
