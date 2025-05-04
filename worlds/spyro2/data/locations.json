@@ -9,18 +9,6 @@
             ]
         }
     },
-    "MONEYBAGS/GLIMMER/BRIDGE": {
-        "label": "Moneybags - Glimmer - Bridge",
-        "tags": [],
-        "category": "MONEYBAGS",
-        "accessible_from": {
-            "SUBREGION/GLIMMER/CAVE_BEFORE_BRIDGE": [
-                [
-                    "_COST/GLIMMER/BRIDGE"
-                ]
-            ]
-        }
-    },
     "ORB/GLIMMER/LIZARD_HUNT": {
         "label": "Orb - Glimmer - Lizard hunt",
         "tags": [],
@@ -114,15 +102,13 @@
             ]
         }
     },
-    "MONEYBAGS/SUMMER_FOREST/AQUARIA_TOWERS_WALLS": {
-        "label": "Moneybags - Summer Forest - Aquaria Towers Walls",
+    "TALISMAN/COLOSSUS": {
+        "label": "Talisman - Colossus",
         "tags": [],
-        "category": "MONEYBAGS",
+        "category": "TALISMAN",
         "accessible_from": {
-            "SUBREGION/SUMMER_FOREST/OUTSIDE_CRUSHS_DUNGEON": [
-                [
-                    "_COST/SUMMER_FOREST/AQUARIA_TOWERS_WALLS"
-                ]
+            "SUBREGION/COLOSSUS/BROTHER_NED_AREA_AND_TALISMAN_BUILDING": [
+                []
             ]
         }
     }

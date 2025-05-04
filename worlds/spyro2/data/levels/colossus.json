@@ -2,7 +2,9 @@
     "name": "Colossus",
     "internal_name": "MAP/COLOSSUS",
     "id": 3,
+    "orb_ordering": ["HOCKEY_VS_GOALIE", "HOCKEY_ONE_ON_ONE", "EVIL_SPIRIT_SEARCH"],
     "valid_spawn_positions": {},
+    "default_powerup_pyramids_cost": 11,
     "subregions": {
         "SUBREGION/COLOSSUS/OPENING_TO_BROTHER_CLIVE": {
             "exits_to": {

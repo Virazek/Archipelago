@@ -50,6 +50,10 @@ Double jump onto the Aquaria Towers wall. This is possible without glide if done
 
 Reach the upper Aquaria Towers wall with a flop from the top of the doorframe leading to Crush's Dungeon. You can use the 'Reload Hub' option in the pause menu to leave the area behind the wall.
 
+### Out-of-Bounds Charge to Underwater
+
+Chargejump through the area near the third 'Hunter's Challenge' platform that lacks collision and reach the underwater area without glide.
+
 
 ## Glimmer
 
@@ -76,3 +80,10 @@ Light all of the cave gem lamps without superflight, using double jumps. If goin
 ### Gem Lamp Flight in Cave Orb Cutscene Teleport
 
 Use the Orb cutscene for 'Gem Lamp Flight in Cave' to reach the upper superflight ledge.
+
+
+## Colossus
+
+### Bigbounce to Outdoor Elevated Ledge
+
+With a very precise angle and jump into the bigbounce pyramids, you can reach the elevated ledge outdoors without charge or glide.

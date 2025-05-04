@@ -1,0 +1,41 @@
+{
+    "UNLOCK/GLIMMER/BRIDGE": {
+        "label": "Unlock - Glimmer - Bridge",
+        "tags": [],
+        "category": "UNLOCK",
+        "may_be_location": false,
+        "accessible_from": {
+            "SUBREGION/GLIMMER/CAVE_BEFORE_BRIDGE": [
+                [
+                    "_COST/GLIMMER/BRIDGE"
+                ]
+            ]
+        }
+    },
+    "UNLOCK/SUMMER_FOREST/AQUARIA_TOWERS_WALLS": {
+        "label": "Unlock - Summer Forest - Aquaria Towers Walls",
+        "tags": [],
+        "category": "UNLOCK",
+        "may_be_location": false,
+        "accessible_from": {
+            "SUBREGION/SUMMER_FOREST/OUTSIDE_CRUSHS_DUNGEON": [
+                [
+                    "_COST/SUMMER_FOREST/AQUARIA_TOWERS_WALLS"
+                ]
+            ]
+        }
+    },
+    "UNLOCK/SUMMER_FOREST/OCEAN_SPEEDWAY": {
+        "label": "Unlock - Summer Forest - Ocean Speedway Portal",
+        "tags": [],
+        "category": "UNLOCK",
+        "may_be_location": true,
+        "accessible_from": {
+            "SUBREGION/SUMMER_FOREST/INSIDE_PORTALS_HUB": [
+                [
+                    "_COST/SUMMER_FOREST/OCEAN_SPEEDWAY"
+                ]
+            ]
+        }
+    }
+}

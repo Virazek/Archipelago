@@ -2,7 +2,9 @@
     "name": "Glimmer",
     "internal_name": "MAP/GLIMMER",
     "id": 1,
+    "orb_ordering": ["LIZARD_HUNT", "GEM_LAMP_FLIGHT_IN_CAVE", "GEM_LAMP_FLIGHT_OUTDOORS"],
     "valid_spawn_positions": {},
+    "default_powerup_pyramids_cost": 10,
     "subregions": {
         "SUBREGION/GLIMMER/BEFORE_CAVE": {
             "exits_to": {

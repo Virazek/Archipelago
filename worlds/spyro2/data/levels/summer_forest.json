@@ -2,6 +2,7 @@
     "name": "Summer Forest",
     "internal_name": "MAP/SUMMER_FOREST",
     "id": 0,
+    "orb_ordering": ["HUNTERS_CHALLENGE", "ON_A_SECRET_LEDGE", "ATOP_A_LADDER", "BEHIND_THE_DOOR"],
     "valid_spawn_positions": {},
     "subregions": {
         "SUBREGION/SUMMER_FOREST/GLIMMER_PORTAL_COURTYARD": {
