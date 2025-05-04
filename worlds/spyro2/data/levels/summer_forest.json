@@ -7,7 +7,9 @@
         "SUBREGION/SUMMER_FOREST/GLIMMER_PORTAL_COURTYARD": {
             "exits_to": {
                 "PORTAL/GLIMMER": [
-                    []
+                    [
+                        "PORTAL/GLIMMER"
+                    ]
                 ],
                 "SUBREGION/SUMMER_FOREST/GLIMMER_PORTAL_COURTYARD_UNDERWATER": [
                     [
@@ -209,13 +211,23 @@
                     []
                 ],
                 "SUBREGION/SUMMER_FOREST/BEHIND_THE_DOOR_DOOR_2": [
-                    ["MOVE/GLIDE"]
+                    [
+                        "MOVE/GLIDE"
+                    ]
                 ],
                 "SUBREGION/SUMMER_FOREST/BEHIND_THE_DOOR_DOOR_1": [
-                    ["MOVE/CHARGE"],
-                    ["MOVE/FLAME"],
-                    ["MOVE/PERMANENT_POWERFLAME"],
-                    ["MOVE/GLIDE"]
+                    [
+                        "MOVE/CHARGE"
+                    ],
+                    [
+                        "MOVE/FLAME"
+                    ],
+                    [
+                        "MOVE/PERMANENT_POWERFLAME"
+                    ],
+                    [
+                        "MOVE/GLIDE"
+                    ]
                 ]
             },
             "gems": {}
@@ -241,29 +253,57 @@
                         "MOVE/PERMANENT_POWERFLAME"
                     ]
                 ],
-                "SUBREGION/SUMMER_FOREST/BEHIND_AQUARIA_TOWERS_WALLS": [["UNLOCK/SUMMER_FOREST/AQUARIA_TOWERS_WALLS"]],
-                "PORTAL/AUTUMN_PLAINS/SUMMER_FOREST_2": [["PORTAL/AUTUMN_PLAINS"]],
-                "PORTAL/WINTER_TUNDRA/SUMMER_FOREST_2": [["PORTAL/WINTER_TUNDRA"]],
-                "PORTAL/CRUSHS_DUNGEON": [["UNLOCK/SUMMER_FOREST/CRUSHS_DUNGEON_DOOR"]]
+                "SUBREGION/SUMMER_FOREST/BEHIND_AQUARIA_TOWERS_WALLS": [
+                    [
+                        "UNLOCK/SUMMER_FOREST/AQUARIA_TOWERS_WALLS"
+                    ]
+                ],
+                "PORTAL/AUTUMN_PLAINS/SUMMER_FOREST_2": [
+                    [
+                        "PORTAL/AUTUMN_PLAINS"
+                    ]
+                ],
+                "PORTAL/WINTER_TUNDRA/SUMMER_FOREST_2": [
+                    [
+                        "PORTAL/WINTER_TUNDRA"
+                    ]
+                ],
+                "PORTAL/CRUSHS_DUNGEON": [
+                    [
+                        "UNLOCK/SUMMER_FOREST/CRUSHS_DUNGEON_DOOR"
+                    ]
+                ]
             },
             "gems": {}
         },
         "SUBREGION/SUMMER_FOREST/BEHIND_THE_DOOR_DOOR_1": {
             "exits_to": {
-                "SUBREGION/SUMMER_FOREST/OUTSIDE_CRUSHS_DUNGEON": [[]]
+                "SUBREGION/SUMMER_FOREST/OUTSIDE_CRUSHS_DUNGEON": [
+                    []
+                ]
             },
             "gems": {}
         },
         "SUBREGION/SUMMER_FOREST/BEHIND_THE_DOOR_DOOR_2": {
             "exits_to": {
-                "SUBREGION/SUMMER_FOREST/OUTSIDE_CRUSHS_DUNGEON": [[]]
+                "SUBREGION/SUMMER_FOREST/OUTSIDE_CRUSHS_DUNGEON": [
+                    []
+                ]
             },
             "gems": {}
         },
         "SUBREGION/SUMMER_FOREST/BEHIND_AQUARIA_TOWERS_WALLS": {
             "exits_to": {
-                "SUBREGION/SUMMER_FOREST/OUTSIDE_CRUSHS_DUNGEON": [["UNLOCK/SUMMER_FOREST/AQUARIA_TOWERS_WALLS"]],
-                "PORTAL/AQUARIA_TOWERS": [["PORTAL/AQUARIA_TOWERS"]]
+                "SUBREGION/SUMMER_FOREST/OUTSIDE_CRUSHS_DUNGEON": [
+                    [
+                        "UNLOCK/SUMMER_FOREST/AQUARIA_TOWERS_WALLS"
+                    ]
+                ],
+                "PORTAL/AQUARIA_TOWERS": [
+                    [
+                        "PORTAL/AQUARIA_TOWERS"
+                    ]
+                ]
             }
         }
     }

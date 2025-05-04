@@ -1,0 +1,224 @@
+{
+    "name": "Colossus",
+    "internal_name": "MAP/COLOSSUS",
+    "id": 3,
+    "valid_spawn_positions": {},
+    "subregions": {
+        "SUBREGION/COLOSSUS/OPENING_TO_BROTHER_CLIVE": {
+            "exits_to": {
+                "SUBREGION/COLOSSUS/BROTHER_CLIVE_TO_BROTHER_CURTIS": [
+                    []
+                ]
+            },
+            "gems": {},
+            "spirit_particles": {
+                "MOVE/FLAME": 2,
+                "_MOVE/ANY": 2
+            }
+        },
+        "SUBREGION/COLOSSUS/BROTHER_CLIVE_TO_BROTHER_CURTIS": {
+            "exits_to": {
+                "SUBREGION/COLOSSUS/AFTER_BROTHER_CURTIS_RAISED_PLATFORMS": [
+                    [
+                        "MOVE/CHARGE"
+                    ],
+                    [
+                        "MOVE/GLIDE"
+                    ]
+                ],
+                "SUBREGION/COLOSSUS/BROTHER_NED_AREA_AND_TALISMAN_BUILDING": [
+                    [
+                        "MOVE/BIGBOUNCE",
+                        "POWERUP_PYRAMIDS/COLOSSUS"
+                    ]
+                ],
+                "SUBREGION/COLOSSUS/ROCKET_GEM_CHEST_PLATFORM": [
+                    [
+                        "MOVE/BIGBOUNCE",
+                        "POWERUP_PYRAMIDS/COLOSSUS"
+                    ]
+                ],
+                "SUBREGION/COLOSSUS/TALISMAN_BUILDING_ROOF": [
+                    [
+                        "MOVE/BIGBOUNCE",
+                        "POWERUP_PYRAMIDS/COLOSSUS"
+                    ]
+                ],
+                "SUBREGION/COLOSSUS/OUTDOOR_ELEVATED_LEDGE": [
+                    [
+                        "MOVE/BIGBOUNCE",
+                        "POWERUP_PYRAMIDS/COLOSSUS",
+                        "MOVE/CHARGE"
+                    ],
+                    [
+                        "MOVE/BIGBOUNCE",
+                        "POWERUP_PYRAMIDS/COLOSSUS",
+                        "MOVE/GLIDE"
+                    ]
+                ]
+            },
+            "gems": {},
+            "spirit_particles": {}
+        },
+        "SUBREGION/COLOSSUS/AFTER_BROTHER_CURTIS_RAISED_PLATFORMS": {
+            "exits_to": {
+                "SUBREGION/COLOSSUS/BROTHER_CLIVE_TO_BROTHER_CURTIS": [
+                    []
+                ],
+                "SUBREGION/COLOSSUS/BROTHER_NED_AREA_AND_TALISMAN_BUILDING": [
+                    [
+                        "MOVE/GLIDE"
+                    ]
+                ]
+            },
+            "gems": {},
+            "spirit_particles": {}
+        },
+        "SUBREGION/COLOSSUS/BROTHER_NED_AREA_AND_TALISMAN_BUILDING": {
+            "exits_to": {
+                "SUBREGION/COLOSSUS/BROTHER_CLIVE_TO_BROTHER_CURTIS": [
+                    []
+                ],
+                "SUBREGION/COLOSSUS/BROTHER_NED_AREA_ROOF": [
+                    [
+                        "MOVE/BIGBOUNCE",
+                        "POWERUP_PYRAMIDS/COLOSSUS"
+                    ]
+                ],
+                "SUBREGION/COLOSSUS/PROFESSOR_AREA_ROOF": [
+                    [
+                        "MOVE/BIGBOUNCE",
+                        "POWERUP_PYRAMIDS/COLOSSUS"
+                    ]
+                ],
+                "SUBREGION/COLOSSUS/ROCKET_GEM_CHEST_PLATFORM": [
+                    [
+                        "MOVE/GLIDE"
+                    ]
+                ],
+                "SUBREGION/COLOSSUS/HOCKEY_AREA": [
+                    []
+                ]
+            },
+            "gems": {},
+            "spirit_particles": {
+                "_MOVE/ANY": 3
+            }
+        },
+        "SUBREGION/COLOSSUS/HOCKEY_AREA": {
+            "exits_to": {
+                "SUBREGION/COLOSSUS/BROTHER_NED_AREA_AND_TALISMAN_BUILDING": [
+                    []
+                ]
+            },
+            "gems": {},
+            "spirit_particles": {}
+        },
+        "SUBREGION/COLOSSUS/BROTHER_NED_AREA_ROOF": {
+            "exits_to": {
+                "SUBREGION/COLOSSUS/TALISMAN_BUILDING_ROOF": [
+                    [
+                        "MOVE/CHARGE"
+                    ],
+                    [
+                        "MOVE/GLIDE"
+                    ]
+                ],
+                "SUBREGION/COLOSSUS/BROTHER_NED_AREA_AND_TALISMAN_BUILDING": [
+                    []
+                ],
+                "SUBREGION/COLOSSUS/PROFESSOR_AREA_ROOF_LOWER_LEVEL": [
+                    [
+                        "MOVE/GLIDE"
+                    ]
+                ]
+            },
+            "gems": {},
+            "spirit_particles": {}
+        },
+        "SUBREGION/COLOSSUS/PROFESSOR_AREA_ROOF": {
+            "exits_to": {
+                "SUBREGION/COLOSSUS/BROTHER_NED_AREA_ROOF": [
+                    [
+                        "MOVE/GLIDE"
+                    ]
+                ],
+                "SUBREGION/COLOSSUS_PROFESSOR_AREA_ROOF_LOWER_LEVEL": [
+                    []
+                ]
+            },
+            "gems": {},
+            "spirit_particles": {}
+        },
+        "SUBREGION/COLOSSUS/PROFESSOR_AREA_ROOF_LOWER_LEVEL": {
+            "exits_to": {
+                "SUBREGION/COLOSSUS/BROTHER_CLIVE_TO_BROTHER_CURTIS": [
+                    []
+                ],
+                "SUBREGION/COLOSSUS/OPENING_TO_BROTHER_CLIVE": [
+                    []
+                ],
+                "SUBREGION/COLOSSUS/ROCKET_GEM_CHEST_PLATFORM": [
+                    [
+                        "MOVE/GLIDE",
+                        "MOVE/HOVER"
+                    ],
+                    [
+                        "MOVE/CHARGE",
+                        "MOVE/GLIDE"
+                    ]
+                ],
+                "SUBREGION/COLOSSUS/OUTDOOR_ELEVATED_LEDGE": [
+                    [
+                        "MOVE/GLIDE"
+                    ]
+                ]
+            },
+            "gems": {},
+            "spirit_particles": {}
+        },
+        "SUBREGION/COLOSSUS/TALISMAN_BUILDING_ROOF": {
+            "exits_to": {
+                "SUBREGION/COLOSSUS/BROTHER_NED_AREA_AND_TALISMAN_BUILDING": [
+                    []
+                ]
+            },
+            "gems": {},
+            "spirit_particles": {}
+        },
+        "SUBREGION/COLOSSUS/OUTDOOR_ELEVATED_LEDGE": {
+            "exits_to": {
+                "SUBREGION/COLOSSUS/BROTHER_CLIVE_TO_BROTHER_CURTIS": [
+                    []
+                ],
+                "SUBREGION/COLOSSUS/OPENING_TO_BROTHER_CLIVE": [
+                    []
+                ],
+                "SUBREGION/COLOSSUS/ROCKET_GEM_CHEST_PLATFORM": [
+                    [
+                        "MOVE/CHARGE",
+                        "MOVE/GLIDE"
+                    ],
+                    [
+                        "MOVE/GLIDE",
+                        "MOVE/HOVER"
+                    ]
+                ]
+            },
+            "gems": {},
+            "spirit_particles": {
+                "MOVE/FLAME": 1,
+                "_MOVE/ANY": 1
+            }
+        },
+        "SUBREGION/COLOSSUS/ROCKET_GEM_CHEST_PLATFORM": {
+            "exits_to": {
+                "SUBREGION/COLOSSUS/BROTHER_CLIVE_TO_BROTHER_CURTIS": [
+                    []
+                ]
+            },
+            "gems": {},
+            "spirit_particles": {}
+        }
+    }
+}

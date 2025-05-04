@@ -12,9 +12,8 @@
             },
             "gems": {},
             "spirit_particles": {
-                "MOVE/CHARGE": 0,
                 "MOVE/FLAME": 1,
-                "_FREE": 5
+                "_MOVE/ANY": 5
             }
         },
         "SUBREGION/GLIMMER/CAVE_BEFORE_BRIDGE": {
@@ -35,9 +34,8 @@
             },
             "gems": {},
             "spirit_particles": {
-                "MOVE/CHARGE": 0,
                 "MOVE/FLAME": 2,
-                "_FREE": 2
+                "_MOVE/ANY": 2
             }
         },
         "SUBREGION/GLIMMER/CAVE_SUPERFLIGHT_LEDGE": {
@@ -45,7 +43,7 @@
                 "SUBREGION/GLIMMER/CAVE_UPPER_LEDGE": [
                     [
                         "MOVE/SUPERFLIGHT",
-                        "PYRAMID/GLIMMER/CAVE_SUPERFLIGHT"
+                        "POWERUP_PYRAMIDS/GLIMMER"
                     ]
                 ],
                 "SUBREGION/GLIMMER/CAVE_BEFORE_BRIDGE": [
@@ -54,9 +52,8 @@
             },
             "gems": {},
             "spirit_particles": {
-                "MOVE/CHARGE": 0,
                 "MOVE/FLAME": 0,
-                "_FREE": 0
+                "_MOVE/ANY": 0
             }
         },
         "SUBREGION/GLIMMER/CAVE_UPPER_LEDGE": {
@@ -70,9 +67,8 @@
             },
             "gems": {},
             "spirit_particles": {
-                "MOVE/CHARGE": 0,
                 "MOVE/FLAME": 0,
-                "_FREE": 0
+                "_MOVE/ANY": 0
             }
         },
         "SUBREGION/GLIMMER/CAVE_AFTER_BRIDGE": {
@@ -86,9 +82,8 @@
             },
             "gems": {},
             "spirit_particles": {
-                "MOVE/CHARGE": 0,
                 "MOVE/FLAME": 1,
-                "_FREE": 1
+                "_MOVE/ANY": 1
             }
         },
         "SUBREGION/GLIMMER/OUTDOOR_GEM_LAMPS": {
@@ -105,15 +100,14 @@
                 "SUBREGION/GLIMMER/OUTDOOR_GEM_LAMPS_AIR": [
                     [
                         "MOVE/SUPERFLIGHT",
-                        "PYRAMID/GLIMMER/OUTDOOR_SUPERFLIGHT"
+                        "POWERUP_PYRAMIDS/GLIMMER"
                     ]
                 ]
             },
             "gems": {},
             "spirit_particles": {
-                "MOVE/CHARGE": 0,
                 "MOVE/FLAME": 1,
-                "_FREE": 1
+                "_MOVE/ANY": 1
             }
         },
         "SUBREGION/GLIMMER/OUTDOOR_GEM_LAMPS_AIR": {
@@ -130,9 +124,8 @@
             },
             "gems": {},
             "spirit_particles": {
-                "MOVE/CHARGE": 0,
                 "MOVE/FLAME": 0,
-                "_FREE": 0
+                "_MOVE/ANY": 0
             }
         },
         "SUBREGION/GLIMMER/OUTDOOR_GEM_LAMPS_LEDGE": {
@@ -141,9 +134,8 @@
             },
             "gems": {},
             "spirit_particles": {
-                "MOVE/CHARGE": 0,
                 "MOVE/FLAME": 0,
-                "_FREE": 0
+                "_MOVE/ANY": 0
             }
         }
     }

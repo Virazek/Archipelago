@@ -13,7 +13,9 @@ This accessibility condition means that from SUBREGION/BEACH, this location/even
 
 # Pseudoregions
 
-All locations create their own pseudoregions to simplify multi-region accessibility.
+All locations (including events) create their own pseudoregions to simplify multi-region accessibility.
+From the perspective of AP, these are just normal regions, as with all other subregions.
+These regions do not have entrances to other regions within them, unless defined by tricks.
 They follow the same naming convention as the location (e.g., the 'Lizard hunt' Orb in Glimmer creates a pseudoregion named 'ORB/GLIMMER/LIZARD_HUNT')
 
 # Tricks

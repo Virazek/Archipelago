@@ -59,7 +59,7 @@ class AllGemLocations(Choice):
     """
     Enable locations for obtaining all 400 Gems in each world. Different sized Gem Packets will be added as items to the multiworld depending on this and the 'Minor Gem Locations' option.
 
-    If the 'Individual Speedway Goals' option is enabled, then each of the 5 speedways objectives (e.g., Rings, Arches, Boats, and Cars for Ocean Speedway)
+    If the 'Individual Speedway Objectives' option is enabled, then each of the 5 speedways objectives (e.g., Rings, Arches, Boats, Cars, and All In One for Ocean Speedway)
     are separate locations. Otherwise, the only Gem location for speedways is the 'All In One' objective.
 
     This will add 25 or 41 locations respectively.
@@ -254,7 +254,7 @@ class MagmaConeElevatorUnlockPercentage(Range):
 class SwimUnlockType(Choice):
     """
     Determines what type of collectable unlocks swim from Moneybags in Summer Forest.
-    If swim is randomized (see 'Basic Move Randomizer'), then this location will have a random multiworld item on it.
+    If swim is randomized (see 'Unlock Move Randomizer'), then this location will have a random multiworld item on it.
 
     A special value, 'Vanilla', is available, which will leave the unlock at its vanilla cost. Choosing this option will ignore the 'Swim Unlock Percentage' option.
     The 'Item' option will unlock upon receiving the 'Unlock - Swim' multiworld item. If swim is randomized and the 'Item' option is enabled, this option will be forcibly changed to 'Vanilla'.
@@ -283,7 +283,7 @@ class SwimUnlockPercentage(Range):
 class ClimbUnlockType(Choice):
     """
     Determines what type of collectable unlocks climb from Moneybags in Autumn Plains.
-    If climb is randomized (see 'Basic Move Randomizer'), then this location will have a random multiworld item on it..
+    If climb is randomized (see 'Unlock Move Randomizer'), then this location will have a random multiworld item on it..
 
     A special value, 'Vanilla', is available, which will leave the unlock at its vanilla cost. Choosing this option will ignore the 'Climb Unlock Percentage' option.
     The 'Item' option will unlock upon receiving the 'Unlock - Climb' multiworld item. If climb is randomized and the 'Item' option is enabled, this option will be forcibly changed to 'Vanilla'.
@@ -312,7 +312,7 @@ class ClimbUnlockPercentage(Range):
 class HeadbashUnlockType(Choice):
     """
     Determines what type of collectable unlocks headbash from Moneybags in Winter Tundra.
-    If headbash is randomized (see 'Basic Move Randomizer'), then this location will have a random multiworld item on it..
+    If headbash is randomized (see 'Unlock Move Randomizer'), then this location will have a random multiworld item on it..
 
     A special value, 'Vanilla', is available, which will leave the unlock at its vanilla cost. Choosing this option will ignore the 'Headbash Unlock Percentage' option.
     The 'Item' option will unlock upon receiving the 'Unlock - Headbash' multiworld item. If headbash is randomized and the 'Item' option is enabled, this option will be forcibly changed to 'Vanilla'.
@@ -815,7 +815,7 @@ class RandomizedBasicMoves(OptionSet):
     Available options are 'Charge', 'Glide', 'Hover', 'Flame', and 'Spit'.
 
     There are 2 special alias options. These assume priority over individual options if both are specified:
-    "_Random" - Randomizes which moves are randomized
+    "_Random" - Randomizes which moves are randomized.
     "_Random_Except_Charge" - Same as the above, except charge is never randomized.
     """
 
@@ -847,7 +847,7 @@ class RandomizedUnlockMoves(OptionSet):
     Available options are 'Swim', 'Climb', and 'Headbash'.
 
     There is a special alias option. This assumes priority over individual options if both are specified:
-    "_Random" - Randomizes which moves are randomized
+    "_Random" - Randomizes which moves are randomized.
     """
 
     display_name = "Randomized Unlock Moves"
@@ -910,7 +910,7 @@ class LevelPortalShuffle(Choice):
 
     Disabled: All level portals may be entered.
 
-    Shuffled: A corresponding 'Level Portal - (level)' item is required to enter any level portal
+    Shuffled: A corresponding 'Level Portal - (level)' item is required to enter any level portal (you will start with one accessible from your hubworld spawn).
 
     Shuffled No OOB Access: Same as 'Shuffled', however will change how portals that are unlocked are handled (e.g., see the 'Ocean Speedway Unlock Type' option).
 
@@ -952,7 +952,7 @@ class RandomStartLocation(Choice):
 
 class GuidebookEntriesAsItems(Toggle):
     """
-    When enabled, Guidebok pages for each level are obtainable as items in the multiworld. These items are considered filler.
+    When enabled, Guidebook pages for each level are obtainable as items in the multiworld. These items are considered filler.
     If disabled, all Guidebook pages are available from the start.
     """
 
