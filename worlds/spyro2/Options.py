@@ -149,7 +149,7 @@ class PermanentPowerflamePyramidsLocation(Toggle):
 
 class PowerupPyramids(Choice):
     """
-    Determines how powerup pyramids in levels (except the permanent powerflame pyramid in Dragon Shores) will provide their powerups.
+    Determines how powerup pyramids in levels (except the permanent powerflame pyramids in Dragon Shores) will provide their powerups.
 
     Vanilla: All pyramids provide their powerup at the vanilla spirit particle number.
 

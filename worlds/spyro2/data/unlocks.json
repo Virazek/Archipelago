@@ -4,10 +4,31 @@
         "tags": [],
         "category": "UNLOCK",
         "may_be_location": false,
+        "vanilla_cost": {
+            "type": "gems",
+            "amount": 100
+        },
         "accessible_from": {
             "SUBREGION/GLIMMER/CAVE_BEFORE_BRIDGE": [
                 [
                     "_COST/GLIMMER/BRIDGE"
+                ]
+            ]
+        }
+    },
+    "UNLOCK/SUMMER_FOREST/SWIM": {
+        "label": "Unlock - Summer Forest - Swim",
+        "tags": [],
+        "category": "UNLOCK",
+        "may_be_location": true,
+        "vanilla_cost": {
+            "type": "gems",
+            "amount": 500
+        },
+        "accessible_from": {
+            "SUBREGION/GLIMMER/OUTSIDE_PORTALS_HUB": [
+                [
+                    "_COST/SUMMER_FOREST/SWIM"
                 ]
             ]
         }
@@ -17,6 +38,10 @@
         "tags": [],
         "category": "UNLOCK",
         "may_be_location": false,
+        "vanilla_cost": {
+            "type": "gems",
+            "amount": 400
+        },
         "accessible_from": {
             "SUBREGION/SUMMER_FOREST/OUTSIDE_CRUSHS_DUNGEON": [
                 [
@@ -30,6 +55,10 @@
         "tags": [],
         "category": "UNLOCK",
         "may_be_location": true,
+        "vanilla_cost": {
+            "type": "orbs",
+            "amount": 3
+        },
         "accessible_from": {
             "SUBREGION/SUMMER_FOREST/INSIDE_PORTALS_HUB": [
                 [
