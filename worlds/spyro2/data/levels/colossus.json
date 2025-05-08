@@ -2,7 +2,11 @@
     "name": "Colossus",
     "internal_name": "MAP/COLOSSUS",
     "id": 3,
-    "orb_ordering": ["HOCKEY_VS_GOALIE", "HOCKEY_ONE_ON_ONE", "EVIL_SPIRIT_SEARCH"],
+    "orb_ordering": [
+        "HOCKEY_VS_GOALIE",
+        "HOCKEY_ONE_ON_ONE",
+        "EVIL_SPIRIT_SEARCH"
+    ],
     "valid_spawn_positions": {},
     "default_powerup_pyramids_cost": 11,
     "subregions": {
@@ -227,6 +231,14 @@
             "exits_to": {
                 "SUBREGION/COLOSSUS/BROTHER_CLIVE_TO_BROTHER_CURTIS": [
                     []
+                ],
+                "SUBREGION/COLOSSUS/OUTDOOR_ELEVATED_LEDGE": [
+                    [
+                        "MOVE/CHARGE"
+                    ],
+                    [
+                        "MOVE/GLIDE"
+                    ]
                 ]
             },
             "gems": {},
