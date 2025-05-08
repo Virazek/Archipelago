@@ -491,6 +491,7 @@ class ShadyOasisBridgeUnlockType(Choice):
     """
     Determines what type of collectable unlocks the bridge leading to Shady Oasis in Autumn Plains from Moneybags.
 
+    If 'Level Portal Shuffle' is enabled, Moneybags will give a random multiworld item. The level portal item will open the bridge, and allow you to enter the portal.
     A special value, 'Vanilla', is available, which will leave the unlock at its vanilla cost. Choosing this option will ignore the 'Shady Oasis Bridge Unlock Percentage' option.
     The 'Item' option will unlock upon receiving the 'Unlock - Shady Oasis Bridge' multiworld item.
     """
