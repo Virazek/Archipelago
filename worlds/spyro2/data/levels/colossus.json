@@ -6,7 +6,18 @@
     "valid_spawn_positions": {},
     "default_powerup_pyramids_cost": 11,
     "subregions": {
-        "SUBREGION/COLOSSUS/OPENING_TO_BROTHER_CLIVE": {
+        "SUBREGION/COLOSSUS/OPENING_TO_BROTHER_ARNIE": {
+            "exits_to": {
+                "SUBREGION/COLOSSUS/BROTHER_ARNIE_TO_BROTHER_CURTIS": [
+                    []
+                ]
+            },
+            "gems": {},
+            "spirit_particles": {
+                "_MOVE/ANY": 2
+            }
+        },
+        "SUBREGION/COLOSSUS/BROTHER_ARNIE_TO_BROTHER_CLIVE": {
             "exits_to": {
                 "SUBREGION/COLOSSUS/BROTHER_CLIVE_TO_BROTHER_CURTIS": [
                     []
@@ -14,8 +25,7 @@
             },
             "gems": {},
             "spirit_particles": {
-                "MOVE/FLAME": 2,
-                "_MOVE/ANY": 2
+                "MOVE/FLAME": 2
             }
         },
         "SUBREGION/COLOSSUS/BROTHER_CLIVE_TO_BROTHER_CURTIS": {
@@ -157,7 +167,7 @@
                 "SUBREGION/COLOSSUS/BROTHER_CLIVE_TO_BROTHER_CURTIS": [
                     []
                 ],
-                "SUBREGION/COLOSSUS/OPENING_TO_BROTHER_CLIVE": [
+                "SUBREGION/COLOSSUS/BROTHER_ARNIE_TO_BROTHER_CLIVE": [
                     []
                 ],
                 "SUBREGION/COLOSSUS/ROCKET_GEM_CHEST_PLATFORM": [
@@ -193,7 +203,7 @@
                 "SUBREGION/COLOSSUS/BROTHER_CLIVE_TO_BROTHER_CURTIS": [
                     []
                 ],
-                "SUBREGION/COLOSSUS/OPENING_TO_BROTHER_CLIVE": [
+                "SUBREGION/COLOSSUS/BROTHER_ARNIE_TO_BROTHER_CLIVE": [
                     []
                 ],
                 "SUBREGION/COLOSSUS/ROCKET_GEM_CHEST_PLATFORM": [
