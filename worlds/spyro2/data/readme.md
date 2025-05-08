@@ -11,6 +11,12 @@ A common pattern on region connections and location/event accessibility is
 
 This accessibility condition means that from SUBREGION/BEACH, this location/event requires (ITEM/A **AND** ITEM/B) **OR** (ITEM/C)
 
+## Aliases
+
+### _MOVE/ANY
+
+The use of "_MOVE/ANY" for accessibility conditions for spirit particles and gems is an alias for (MOVE/FLAME) OR (MOVE/CHARGE) OR (MOVE/PERMANENT_POWERFLAME). This condition is usually explicitly listed for other accessibility conditions, but it would get extremely repetitive for these cases so it is abbreviated.
+
 # Pseudoregions
 
 All locations (including events) create their own pseudoregions to simplify multi-region accessibility.

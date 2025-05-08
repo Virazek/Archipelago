@@ -2,7 +2,12 @@
     "name": "Summer Forest",
     "internal_name": "MAP/SUMMER_FOREST",
     "id": 0,
-    "orb_ordering": ["HUNTERS_CHALLENGE", "ON_A_SECRET_LEDGE", "ATOP_A_LADDER", "BEHIND_THE_DOOR"],
+    "orb_ordering": [
+        "HUNTERS_CHALLENGE",
+        "ON_A_SECRET_LEDGE",
+        "ATOP_A_LADDER",
+        "BEHIND_THE_DOOR"
+    ],
     "valid_spawn_positions": {},
     "subregions": {
         "SUBREGION/SUMMER_FOREST/GLIMMER_PORTAL_COURTYARD": {
@@ -87,8 +92,7 @@
                 ],
                 "SUBREGION/SUMMER_FOREST/HUNTERS_CHALLENGE_PLATFORM_3": [
                     [
-                        "MOVE/GLIDE",
-                        "MOVE/HOVER"
+                        "MOVE/GLIDE"
                     ],
                     [
                         "MOVE/CHARGE",
@@ -171,11 +175,6 @@
         },
         "SUBREGION/SUMMER_FOREST/INSIDE_PORTALS_HUB": {
             "exits_to": {
-                "SUBREGION/SUMMER_FOREST/OUTSIDE_PORTALS_HUB_UNDERWATER": [
-                    [
-                        "MOVE/SWIM"
-                    ]
-                ],
                 "SUBREGION/SUMMER_FOREST/UNDERWATER_TO_INSIDE_PORTALS_HUB_CONNECTOR": [
                     [
                         "MOVE/CHARGE"

@@ -61,6 +61,10 @@ Chargejump through the area near the third 'Hunter's Challenge' platform that la
 
 Double jump to the out-of-bounds ledge in the area before the cave. You can reach the extended out-of-bounds area and the cave superflight ledge with only charge. You can also double jump from the large green gem inside the cave to reach the superflight ledge.
 
+### Gem Parkour to Cave Ledge
+
+With a precise charge and glide, land on the left large gem inside the cave, then charge, glide, and hover to the non-superflight upper ledge in the cave.
+
 ### Double Jump to Cave Ledge
 
 Double jump to the non-superflight upper ledge in the cave.
